@@ -2,8 +2,10 @@ OnRamps Pre-Calculus Notes
 ==========================
 
 .. todo::
-    * Populate this page
-    
+    1. Create files for the units in OnRamps
+    2. Fill out those files with your Notes
+    3. Write a quick summary of the Notes (Course, location, use of the notes)
+
 .. toctree::
     :maxdepth: 2
     :caption: Contents:

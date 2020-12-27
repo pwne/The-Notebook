@@ -56,6 +56,7 @@ html_theme = 'sphinx_rtd_theme'
 
 html_theme_options = {
     'display_version': True,
+    #'logo_only' : True,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -69,6 +70,12 @@ html_show_copyright = False
 # If true (and html_copy_source is true as well), links to the reST sources
 # will be added to the sidebar. The default is True.
 html_show_sourcelink = False
+
+# If true, “Created using Sphinx” is shown in the HTML footer.
+# Default is True.
+html_show_sphinx = False
+
+#html_logo = "_static/notebook_icon_125988.png"
 
 
 # -- Options for todo extension ----------------------------------------------
