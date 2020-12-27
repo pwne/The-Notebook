@@ -1,0 +1,9 @@
+Math Collection
+===============
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   ap_stats/index
+   onramps_precal/index
