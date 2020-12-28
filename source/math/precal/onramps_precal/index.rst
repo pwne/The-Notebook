@@ -14,8 +14,8 @@ Unit 1 - Functions, Rates, and Patterns
     :maxdepth: 2
     :caption: Contents:
 
-    1_1
-    1_2
+    unit1/1_1
+    unit1/1_2
 
 
 Notes Information

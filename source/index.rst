@@ -8,14 +8,14 @@ collection of notes from High Schools of all grade levels to help others.
 -----------
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
     :caption: Math Notes:
 
     math/precal/index
     math/stats/index
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
     :caption: Science Notes:
 
     science/physics/index
