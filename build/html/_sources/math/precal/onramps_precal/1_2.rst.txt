@@ -1,0 +1,71 @@
+1.2 - Types of Functions
+########################
+
+Domain, Codomain, and Range
+***************************
+
+Domain
+    The set of all inputs of a Function (ie. the *x* values)
+
+Codomain
+    All of the possible outputs of a Function (ie. the *types of numbers*).
+    See :doc:`Types of Numbers in 1.1 - Functions <1_1>`
+
+Range
+    The actual outputs of a Function (ie. the *y* values)
+
+Stating Domain and Range
+------------------------
+
+Domain and Range can be written in one of two ways:
+
+Interval Notation
+^^^^^^^^^^^^^^^^^^^^
+
++------------------------+---------------------------+----------------------------+
+| Name of Interval       | Notation                  | Inequality Description     |
++========================+===========================+============================+
+| Finite and Closed      | :math:`[a, b]`            | :math:`a \leq x \leq b`    |
++------------------------+---------------------------+----------------------------+
+| Finite and Open        | :math:`(a, b)`            | :math:`a < x < b`          |
++------------------------+---------------------------+----------------------------+
+| Finite and             | :math:`[a, b)`            | :math:`a \leq x < b`       |
+|                        +---------------------------+----------------------------+
+| Half-Opened            | :math:`(a, b]`            | :math:`a < x \leq`         |
++------------------------+---------------------------+----------------------------+
+| Infinite and           | :math:`(-\infty, b]`      | :math:`-\infty < x \leq b` |
+|                        +---------------------------+----------------------------+
+| Closed                 | :math:`[a, \infty)`       | :math:`a \leq x < \infty`  |
++------------------------+---------------------------+----------------------------+
+| Infinite and           | :math:`(-\infty, b)`      | :math:`-\infty < x < b`    |
+|                        +---------------------------+----------------------------+
+| Open                   | :math:`(a, \infty)`       | :math:`a < x < \infty`     |
+|                        +---------------------------+----------------------------+
+|                        | :math:`(-\infty, \infty)` | :math:`-\infty x < \infty` |
++------------------------+---------------------------+----------------------------+
+
+
+Set Notation
+^^^^^^^^^^^^
+
+
+Finding Natural/ Implied Domain
+-------------------------------
+
+.. note::
+    The Natural/Implied Domain of a function is the domain of said function
+    **without** domain restrictions (ie. :math:`y = x \; [-1, 3]` where the
+    values within the brackets are the restrictions)
+
+
+Injective, Surjective, Bijective Functions
+******************************************
+
+Even, Odd, or None
+******************
+
+Composition of Functions
+************************
+
+Inverse of Functions
+********************

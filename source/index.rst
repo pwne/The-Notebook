@@ -8,17 +8,19 @@ collection of notes from High Schools of all grade levels to help others.
 -----------
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: Math Notes:
 
-    ap_stats/index
-    onramps_precal/index
+    math/precal/index
+    math/stats/index
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: Science Notes:
 
-    onramps_physics_1/index
+    science/physics/index
+
+**More to be added soon**
 
 .. toctree::
     :maxdepth: 2

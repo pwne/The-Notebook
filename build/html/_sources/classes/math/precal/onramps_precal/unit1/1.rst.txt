@@ -1,0 +1,79 @@
+1.1 - Functions
+===============
+
+Definitions of Functions
+************************
+
+Function
+  Relationship where **each input**, *\"x\"*, has a **single output**, *\"y\"*.
+  Written as *\"f(x)=...\"*
+
+Identifying Functions and Non-Functions
+***************************************
+
+Functions may be represented as:
+  * Function Notation
+      \"y=...\" or \"f(x)=...\"
+  * Tables
+      +---+---+
+      | x | y |
+      +===+===+
+      | 2 | 4 |
+      +---+---+
+      |-6 | 12|
+      +---+---+
+      |13 | 26|
+      +---+---+
+  * Coordinate Pairs
+      (2, 4), (-6, 12), (13, 26)
+  * Graphs
+      .. image:: _static\\graph1.png
+          :height: 100px
+          :width: 100px
+  * Mappings
+      .. image:: _static\\set_example.jpg
+          :height: 125px
+          :width: 160px
+
+.. note::
+    Non-Functions **do not** pass the *vertical line test*, where one input has
+    more than one output.
+
+
+Function Notation
+*****************
+
+Simple replace the \"y\" from any equation with \"f(x)\"
+
+Example:
+  * :math:`y = x` becomes :math:`f(x) = x`
+  * :math:`y = mx + b` becomes :math:`f(x) = mx + b`
+
+Set Notation
+************
+
+Set notation is used to define the elements that are part of a set (list).
+
+Symbols you might encouter:
+  * ℤ - Set of integers
+      * All positive and negative numbers
+  * ℝ - Set of Real Numbers
+      * All numbers, excluding imaginary numbers
+  * ℕ - Set of Natural Numbers
+      * Positive whole numbers
+  * ℚ - Set of Rational Numbers
+      * Numbers that can be written as fractions
+  * ℂ - Set of Complex Numbers
+      * Numbers that can be represented in the form *a + bi*
+
+  * |
+  * ⋂
+  * ⋃
+  * ⊂
+  * ⊄
+  * ∈
+  * ∉
+  * Ø
+
+Parent Functions
+****************

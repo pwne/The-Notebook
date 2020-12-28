@@ -35,6 +35,7 @@ version = '0.9.0'
 # ones.
 extensions = [
     "sphinx.ext.todo",
+    "sphinx.ext.autosectionlabel",
     "sphinx_rtd_theme"
 ]
 
@@ -78,8 +79,12 @@ html_show_sphinx = False
 #html_logo = "_static/notebook_icon_125988.png"
 
 
-# -- Options for todo extension ----------------------------------------------
+# -- Options for Extensions --------------------------------------------------
 
 # If this is True, todo and todolist produce output, else they produce nothing.
 # The default is False.
 todo_include_todos = True
+
+autosectionlabel_prefix_document = True
+
+autosectionlabel_maxdepth = 3

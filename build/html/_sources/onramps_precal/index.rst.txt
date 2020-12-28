@@ -9,3 +9,8 @@ OnRamps Pre-Calculus Notes
 .. toctree::
     :maxdepth: 2
     :caption: Contents:
+
+    unit0
+    unit1
+    unit2
+    unit3
