@@ -3,7 +3,7 @@
 
 The Notebook is a compilation of notes from students on different classes. The
 Notebook serves to act as a *one stop shop* for High School students of all
-grade level.
+grade levels.
 
 ## Classes
 * Math

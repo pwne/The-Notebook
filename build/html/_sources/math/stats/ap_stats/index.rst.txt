@@ -1,13 +1,25 @@
-AP Statistics Notes
-===================
+AP Statistics
+#############
 
-.. todo::
-    1. Fill out *Chapter 1*
-    2. Write something about these notes (Course, location, use of the notes)
-    3. Do the rest of the chapters
+.. warning::
+
+	These notes are not yet complete!
+
+
+Table Of Contents
+*****************
 
 .. toctree::
-    :maxdepth: 2
-    :caption: Contents:
+    :maxdepth: 1
 
-    chapter1
+    unit1/index
+
+
+Notes Information
+*****************
+
+:Campus:
+    Theodore Roosevelt High School
+
+:School Year:
+    2020-2021
