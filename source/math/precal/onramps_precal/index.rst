@@ -6,15 +6,13 @@ OnRamps Pre-Calculus
     These notes are not yet complete!
 
 
-Unit 1 - Functions, Rates, and Patterns
-***************************************
+Table Of Contents
+*****************
 
 .. toctree::
-    :maxdepth: 2
-    :caption: Contents:
+    :maxdepth: 1
 
-    unit1/1_1
-    unit1/1_2
+    unit1/index
 
 
 Notes Information

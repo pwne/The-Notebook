@@ -6,18 +6,13 @@ AP Statistics
 	These notes are not yet complete!
 
 
-Unit 1 - Understanding Data
-***************************
+Table Of Contents
+*****************
 
 .. toctree::
-    :maxdepth: 2
-    :caption: Contents:
+    :maxdepth: 1
 
-    unit1/1_0
-    unit1/1_1
-    unit1/1_3
-    unit1/1_2
-    unit1/review
+    unit1/index
 
 
 Notes Information

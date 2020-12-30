@@ -22,7 +22,7 @@ Collections:
     :maxdepth: 1
     :caption: Science Notes:
 
-    science/physics/index
+    science/physics/onramps_physics_1/index
 
 *More to be added soon*
 

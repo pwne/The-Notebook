@@ -8,8 +8,8 @@ collection of notes from High Schools of all grade levels to help others.
 
 -----------
 
-Collections
-===========
+Collections:
+============
 
 .. toctree::
     :maxdepth: 1
@@ -22,9 +22,9 @@ Collections
     :maxdepth: 1
     :caption: Science Notes:
 
-    science/physics/index
+    science/physics/onramps_physics_1/index
 
-**More to be added soon**
+*More to be added soon*
 
 .. toctree::
     :maxdepth: 2
