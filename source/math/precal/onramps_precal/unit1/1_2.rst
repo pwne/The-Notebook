@@ -1,6 +1,9 @@
 1.2 - Types of Functions
 ########################
 
+.. contents:: 
+  :depth: 2
+
 Domain, Codomain, and Range
 ***************************
 
@@ -9,18 +12,28 @@ Domain
 
 Codomain
     All of the possible outputs of a Function (ie. the *types of numbers*).
+
     See :doc:`Types of Numbers in 1.1 - Functions <1_1>`
 
 Range
     The actual outputs of a Function (ie. the *y* values)
+
+Example:
+  .. image:: ..\\_static\\domain-codomain-range.png
+
 
 Stating Domain and Range
 ------------------------
 
 Domain and Range can be written in one of two ways:
 
+
 Interval Notation
 ^^^^^^^^^^^^^^^^^^^^
+
+.. note::
+
+	*a* and *b* are the lower and upper bound of the Domain/Range
 
 +------------------------+---------------------------+----------------------------+
 | Name of Interval       | Notation                  | Inequality Description     |
@@ -48,6 +61,14 @@ Interval Notation
 Set Notation
 ^^^^^^^^^^^^
 
+Domain and Range can be written using the following formula:
+    `{x ∈ <type of number> | condition}`
+
+.. note::
+
+  The condition mention is the same as the *Inequality Descriptions* mentioned
+  above.
+
 
 Finding Natural/ Implied Domain
 -------------------------------
@@ -60,8 +81,65 @@ values within the brackets are the restrictions)
 Injective, Surjective, Bijective Functions
 ******************************************
 
+*\"Injective, Surjective, and Bijective"* tell us how a Function behaves.
+
+**Injective**
+    * Outputs **cannot have more than one** Input
+
+        * Also known as a *\"one-to-one mapping"*
+
+        * Outputs may might not be paired with an Input
+
+.. note::
+    **Horizontal Line Test** - a horizontal line *should not* intersect the graph at more than one point
+
+**Surjective**
+    * Every Output has **at least one** Input
+
+        * There will **never** be an Output without an Input
+
+**Bijective**
+    * Both Injective **and** Surjective
+
+        * **Every** Output has **exactly one** Input (*one-to-one correspondence*)
+
+.. note::
+
+    Bijective functions have **inverses**
+
+Examples:
+  .. image:: ..\\_static\\function-mapping.svg
+
+
 Even, Odd, or None
 ******************
+
+Even Functions
+  * Meets the following criteria:
+
+    * :math:`f(x) = f(-x)`
+
+  * Is symmetric across the *y-axis*
+
+  .. image:: ..\\_static\\even.svg
+    :scale: 75%
+
+Odd Functions
+  * Meets the following criteria:
+
+    * :math:`-f(x) = f(-x)`
+
+  * Is symmetric across the *origin or (0,0)*
+
+  .. image:: ..\\_static\\odd.svg
+    :scale: 75%
+
+Functions that are Neither
+  * Neither symmetric across the *y-axis* or *origin*
+
+  .. image:: ..\\_static\\neither.svg
+    :scale: 75%
+
 
 Composition of Functions
 ************************

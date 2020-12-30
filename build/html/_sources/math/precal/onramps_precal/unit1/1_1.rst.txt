@@ -1,12 +1,14 @@
 1.1 - Functions
 ###############
 
+
 Definitions of Functions
 ************************
 
 Function
   Relationship where **each input**, *\"x\"*, has a **single output**, *\"y\"*.
   Written as *\"f(x)=...\"*
+
 
 Identifying Functions and Non-Functions
 ***************************************
@@ -50,20 +52,18 @@ Example:
   * :math:`y = x` becomes :math:`f(x) = x`
   * :math:`y = mx + b` becomes :math:`f(x) = mx + b`
 
+
 Set Notation
 ************
 
 Definition:
-^^^^^^^^^^^
   Set notation is used to define the elements that are part of a set (list).
 
 Writing Set Notation:
-^^^^^^^^^^^^^^^^^^^^^
   * Formula: {x ∈ *<Set of Numbers>* \| *<Condition>* }
   * Read as: \"x is an element of *<set of numbers>* such that *<condition>*"
 
-Symbols you might encounter:
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Symbols you might encounter:**
 
 +--------+----------------+-------------------------------------+
 | Symbol | Symbol Name    |  Meaning/Definition                 |
@@ -85,8 +85,7 @@ Symbols you might encounter:
 | Ø      | Empty Set      | *Set is empty*                      |
 +--------+----------------+-------------------------------------+
 
-Types of Numbers
-^^^^^^^^^^^^^^^^
+**Types of Numbers**
 
 +--------+-------------------------+--------------------------------------------------------------+
 | Symbol | Symbol Name             |  Meaning/Definition                                          |
@@ -101,6 +100,7 @@ Types of Numbers
 +--------+-------------------------+--------------------------------------------------------------+
 | ℂ      | Set of Complex Numbers  | *Numbers that can be represented in the form* :math:`a + bi` |
 +--------+-------------------------+--------------------------------------------------------------+
+
 
 Parent Functions
 ****************
