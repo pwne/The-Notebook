@@ -14,7 +14,6 @@ Unit 1 - Functions, Rates, and Patterns
 
       - Use Triangular Differences to identify degree
 
-
     * 1.5 - Functions Defined by Patterns
 
       - Identify functions using tables

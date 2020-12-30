@@ -4,9 +4,6 @@
 .. todo::
   Fill the following section out:
 
-  * Set Notation (Domain, Codomain, and Range)
-  * Injective, Surjective, and Bijective Functions
-  * Even, Odd, or None
   * Composition of Funcitons
   * Inverse of Functions
 
@@ -85,67 +82,76 @@ The Natural/Implied Domain of a function is the domain of said function
 values within the brackets are the restrictions)
 
 
+-----------
+
+
 Injective, Surjective, Bijective Functions
 ******************************************
 
 *\"Injective, Surjective, and Bijective"* tell us how a Function behaves.
 
-**Injective**
-    * Outputs **cannot have more than one** Input
+Injective
+    Outputs **cannot have more than one** Input
 
-        * Also known as a *\"one-to-one mapping"*
+      Also known as a *\"one-to-one mapping"*
 
-        * Outputs may might not be paired with an Input
+      Outputs may might not be paired with an Input
 
 .. note::
     **Horizontal Line Test** - a horizontal line *should not* intersect the graph at more than one point
 
-**Surjective**
-    * Every Output has **at least one** Input
+Surjective
+    Every Output has **at least one** Input
 
-        * There will **never** be an Output without an Input
+      There will **never** be an Output without an Input
 
-**Bijective**
-    * Both Injective **and** Surjective
+Bijective
+    Both Injective **and** Surjective
 
-        * **Every** Output has **exactly one** Input (*one-to-one correspondence*)
+      **Every** Output has **exactly one** Input (*one-to-one correspondence*)
+
 
 .. note::
 
     Bijective functions have **inverses**
 
+
 Examples:
   .. image:: ..\\_static\\function-mapping.svg
+
+
+-----------
 
 
 Even, Odd, or None
 ******************
 
 Even Functions
-  * Meets the following criteria:
+  Meets the following criteria:
+    :math:`f(x) = f(-x)`
 
-    * :math:`f(x) = f(-x)`
-
-  * Is symmetric across the *y-axis*
+  Is symmetric across the *y-axis*
 
   .. image:: ..\\_static\\even.svg
     :scale: 75%
 
 Odd Functions
-  * Meets the following criteria:
+  Meets the following criteria:
+    :math:`-f(x) = f(-x)`
 
-    * :math:`-f(x) = f(-x)`
-
-  * Is symmetric across the *origin or (0,0)*
+  Is symmetric across the *origin or (0,0)*
 
   .. image:: ..\\_static\\odd.svg
     :scale: 75%
 
 Functions that are Neither
-  * Neither symmetric across the *y-axis* or *origin*
+  Neither symmetric across the *y-axis* or *origin*
 
   .. image:: ..\\_static\\neither.svg
     :scale: 75%
+
+
+-----------
 
 
 Composition of Functions
@@ -153,6 +159,10 @@ Composition of Functions
 
 .. todo::
     Fill this section out
+
+
+-----------
+
 
 Inverse of Functions
 ********************
