@@ -1,5 +1,5 @@
-OnRamps Pre-Calculus Notes
-##########################
+OnRamps Pre-Calculus
+####################
 
 .. warning::
 

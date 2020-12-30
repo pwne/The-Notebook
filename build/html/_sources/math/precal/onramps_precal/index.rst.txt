@@ -1,5 +1,5 @@
-OnRamps Pre-Calculus Notes
-##########################
+OnRamps Pre-Calculus
+####################
 
 .. warning::
 
@@ -19,5 +19,8 @@ Unit 1 - Functions, Rates, and Patterns
 Notes Information
 *****************
 
-Campus: Theodore Roosevelt High School
-School Year: 2020-2021
+:Campus:
+    Theodore Roosevelt High School
+
+:School Year:
+    2020-2021
