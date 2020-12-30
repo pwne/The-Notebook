@@ -1,10 +1,8 @@
 OnRamps Pre-Calculus Notes
 ##########################
 
-.. todo::
-    1. Fill out those files with your Notes
+.. warning::
 
-.. note::
     These notes are not yet complete!
 
 Unit 1 - Functions, Rates, and Patterns
@@ -21,8 +19,8 @@ Unit 1 - Functions, Rates, and Patterns
 Notes Information
 *****************
 
-Campus
+:Campus:
     Theodore Roosevelt High School
 
-School Year
+:School Year:
     2020-2021

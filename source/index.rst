@@ -11,7 +11,7 @@ collection of notes from High Schools of all grade levels to help others.
     :maxdepth: 1
     :caption: Math Notes:
 
-    math/precal/index
+    math/precal/onramps_precal/index
     math/stats/index
 
 .. toctree::

@@ -1,6 +1,16 @@
 1.2 - Types of Functions
 ########################
 
+.. todo::
+  Fill the following section out:
+
+  * Set Notation (Domain, Codomain, and Range)
+  * Injective, Surjective, and Bijective Functions
+  * Even, Odd, or None
+  * Composition of Funcitons
+  * Inverse of Functions
+
+
 Domain, Codomain, and Range
 ***************************
 
@@ -14,10 +24,12 @@ Codomain
 Range
     The actual outputs of a Function (ie. the *y* values)
 
+
 Stating Domain and Range
 ------------------------
 
 Domain and Range can be written in one of two ways:
+
 
 Interval Notation
 ^^^^^^^^^^^^^^^^^^^^
@@ -48,6 +60,8 @@ Interval Notation
 Set Notation
 ^^^^^^^^^^^^
 
+.. todo::
+    Fill this section out
 
 Finding Natural/ Implied Domain
 -------------------------------
@@ -60,11 +74,23 @@ values within the brackets are the restrictions)
 Injective, Surjective, Bijective Functions
 ******************************************
 
+.. todo::
+    Fill this section out
+
 Even, Odd, or None
 ******************
+
+.. todo::
+    Fill this section out
 
 Composition of Functions
 ************************
 
+.. todo::
+    Fill this section out
+
 Inverse of Functions
 ********************
+
+.. todo::
+    Fill this section out
