@@ -1,8 +1,6 @@
 1.2 - Types of Functions
 ########################
 
-.. contents:: 
-  :depth: 2
 
 Domain, Codomain, and Range
 ***************************
