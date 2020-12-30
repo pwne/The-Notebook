@@ -33,7 +33,7 @@ Domain and Range can be written in one of two ways:
 
 
 Interval Notation
-^^^^^^^^^^^^^^^^^^^^
+=================
 
 .. note::
 
@@ -61,9 +61,10 @@ Interval Notation
 |                        | :math:`(-\infty, \infty)` | :math:`-\infty x < \infty` |
 +------------------------+---------------------------+----------------------------+
 
+.. _set-notation:
 
 Set Notation
-^^^^^^^^^^^^
+============
 
 Domain and Range can be written using the following formula:
     `{x ∈ <type of number> | condition}`
@@ -82,6 +83,27 @@ The Natural/Implied Domain of a function is the domain of said function
 values within the brackets are the restrictions)
 
 
+.. _domain-restriction:
+
+Domain Restrictions
+-------------------
+
+Usage:
+  Specify which part of the domain is/can be used by a function.
+
+Writing Domain Restrictions:
+  Use :ref:`Set Notation<set-notation>` to indicate which values are to be used
+
+  Domain Restrictions are usually written immediately after a function.
+    Example:
+
+      :math:`f(x) = x^2 \; [0, \infty]`
+
+      This restricts the domain of the Quadratic Function to any value
+      greater than or equal to 0, making it :ref:`Invertible<inverse-of-functions>`
+
+
+
 -----------
 
 
@@ -89,6 +111,8 @@ Injective, Surjective, Bijective Functions
 ******************************************
 
 *\"Injective, Surjective, and Bijective"* tell us how a Function behaves.
+
+.. _injectivity:
 
 Injective
     Outputs **cannot have more than one** Input
@@ -109,11 +133,6 @@ Bijective
     Both Injective **and** Surjective
 
       **Every** Output has **exactly one** Input (*one-to-one correspondence*)
-
-
-.. note::
-
-    Bijective functions have **inverses**
 
 
 Examples:
@@ -157,15 +176,114 @@ Functions that are Neither
 Composition of Functions
 ************************
 
-.. todo::
-    Fill this section out
+
+Definition
+  Taking the output values from one function and using those as the input
+  values for a second function
+
+.. image:: ..\\_static\\Figure_3-2.png
+    :scale: 25%
+
+.. note::
+
+	Think of composite functions as *Nested Functions*, where one is *nested* within another
+
+Example:
+
+| Original Funcitons:
+|   :math:`f(x) = x^3 + 2`
+|   :math:`g(x) = \sqrt{x}`
+|
+| Composite Functions using Original Funcitons:
+|   :math:`h(x) = f(g(x)) = (\sqrt{x})^3 + 2`
+|   :math:`h(x) = g(f(x)) = \sqrt{x^3 + 2}`
+|
+
+.. note::
+
+  Composite Functions can also be written as:
+  :math:`h(x) = (f \circ g)(x)`, which is the same as :math:`h(x) = f(g(x))`
+
+  Some Functions might have **Domain Restrictions** that are written in *Interval Notation*.
+  These are the only that can be used; any values outside of the restrictions should be written as **DNE** (*Does Not Exist*)
+
+
+Decomposition of Functions
+--------------------------
+
+Definition
+  Breaking down Composite Functions into their Component Functions
+
+Example:
+
+| Composite Function:
+|   :math:`f(g(x)) = \sqrt{x - 8}`
+|
+| Possible Component Functions:
+|   :math:`f(x) = \sqrt{x}`
+|   :math:`g(x) = x - 8`
+|
+
+.. note::
+
+  It matters which Functions you designate as :math:`f(x)` and :math:`g(x)`
 
 
 -----------
 
+.. _inverse-of-functions:
 
 Inverse of Functions
 ********************
 
-.. todo::
-    Fill this section out
+.. sidebar:: What Functions have Inverses?
+
+  If a function is :ref:`Injective<injectivity>` then it is said to be *invertible* (ie. has an Inverse)
+
+Definition:
+  Functions where the *Inputs* and *Outputs* are **switched**
+
+
+Writing Inverse Functions
+  Usually as :math:`y = f^{-1}(f(y)) = f^{-1}(x)`
+
+Properties of Inverse Functions
+  The graphs of :math:`f` and :math:`f^{-1}` are symmetric along the line :math:`y = x`
+
+.. note::
+  Remember: Only functions whose Output have **only one** Input have Inverses
+
+
+Calculating Inverses of Functions
+---------------------------------
+
+.. note::
+
+  Before calculating the inverse, make sure the function is :ref:`Injective<injectivity>`
+
+  If the function is not **invertible**, apply a :ref:`Domain Restriction<domain-restriction>`
+
+**Steps to Calculate the Inverse of a Function:**
+
+1. Change :math:`f(x)` to :math:`y`
+2. Switch the position of :math:`x` and :math:`y`
+3. Solve for :math:`y` (get :math:`y` by itself)
+4. Change :math:`y` to :math:`f^{-1}`
+
+**Example:**
+
+Base Function:
+  :math:`f(x) = x^3 + 4`
+
+Step 1.
+  :math:`y = x^3 + 4`
+
+Step 2.
+  :math:`x = y^3 + 4`
+
+Step 3.
+  :math:`x - 4 = y^3`
+  :math:`\sqrt[3]{x - 4} = y`
+
+Step 4.
+  :math:`\sqrt[3]{x - 4} = f^{-1}` or :math:`f^{-1} = \sqrt[3]{x - 4}`
