@@ -1,12 +1,6 @@
 1.2 - Types of Functions
 ########################
 
-.. todo::
-  Fill the following section out:
-
-  * Composition of Funcitons
-  * Inverse of Functions
-
 
 Domain, Codomain, and Range
 ***************************
@@ -272,7 +266,7 @@ Calculating Inverses of Functions
 
 **Example:**
 
-Base Function:
+Starting Function:
   :math:`f(x) = x^3 + 4`
 
 Step 1.
@@ -282,8 +276,7 @@ Step 2.
   :math:`x = y^3 + 4`
 
 Step 3.
-  :math:`x - 4 = y^3`
-  :math:`\sqrt[3]{x - 4} = y`
+  :math:`x - 4 = y^3 \\ \sqrt[3]{x -4} = y`
 
 Step 4.
   :math:`\sqrt[3]{x - 4} = f^{-1}` or :math:`f^{-1} = \sqrt[3]{x - 4}`
