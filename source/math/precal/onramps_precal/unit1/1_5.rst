@@ -1,2 +1,2 @@
-1.5 - Functions Defined by Patterns
-###################################
+1.5 - Function Patterns
+#######################

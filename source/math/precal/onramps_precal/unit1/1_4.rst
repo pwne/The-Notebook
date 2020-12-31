@@ -1,2 +1,2 @@
-1.4 - Sequences and Triangular Differences
-##########################################
+1.4 - Sequences and Differences
+###############################

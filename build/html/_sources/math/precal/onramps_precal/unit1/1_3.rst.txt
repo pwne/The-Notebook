@@ -1,2 +1,47 @@
-1.3 - Looking at Rates
-######################
+1.3 - Qualitative Look at Rates
+###############################
+
+
+Distance vs Time
+================
+
+When looking at a *Distance vs Time* graph there are a few types of rates you
+might encounter:
+
++-----------------------------------+--------------+----------+-------------------------------------------------+
+| Type of Line                      | Acceleration | Velocity | Graph                                           |
++===================================+==============+==========+=================================================+
+| Straight Line (Linear Function)   | 0            | 0        | .. image:: ..\\_static\\linear-0.png            |
+|                                   |              +----------+-------------------------------------------------+
+|                                   |              | Positive | .. image:: ..\\_static\\linear-positive.png     |
+|                                   |              +----------+-------------------------------------------------+
+|                                   |              | Negative | .. image:: ..\\_static\\linear-negative.png     |
++-----------------------------------+--------------+----------+-------------------------------------------------+
+| Curved line (Non-Linear Function) | Constant     | Positive | .. image:: ..\\_static\\nonlinear-positive.png  |
+|                                   |              +----------+-------------------------------------------------+
+|                                   |              | Negative | .. image:: ..\\_static\\nonlinear-negative1.png |
+|                                   |              |          +-------------------------------------------------+
+|                                   |              |          | .. image:: ..\\_static\\nonlinear-negative2.png |
++-----------------------------------+--------------+----------+-------------------------------------------------+
+
+
+.. note::
+
+  The **Steeper**/**Flatter** the line (either *linear* or *non-linear*) the **Higher**/**Lower** the slope
+
+
+----------
+
+Height vs Volume
+================
+
+Height vs Volume graphs show the *Height* a fluid reaches while taking up
+a certain *Volume*
+
+.. note::
+
+    Many of the Graphs below are similar if not identical to some of the graphs
+    in the section above.
+
+
+text
