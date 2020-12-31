@@ -1,3 +1,7 @@
+.. sectnum::
+  :prefix: 1.
+  :suffix: -
+
 What is a Function?
 ###################
 
