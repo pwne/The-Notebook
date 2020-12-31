@@ -36,6 +36,10 @@ This unit goes over the following:
 Table of Contents
 *****************
 
+.. important::
+
+	All of the following topics will be on the Unit 1 Test
+
 .. toctree::
     :maxdepth: 2
 
