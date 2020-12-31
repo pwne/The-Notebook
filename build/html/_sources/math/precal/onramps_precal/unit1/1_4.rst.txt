@@ -1,2 +1,108 @@
 1.4 - Sequences and Differences
 ###############################
+
+1.4.1 - Sequences
+=================
+
+What are Sequences?
+*******************
+
+Definition:
+  A pattern of numbers in a particular order
+
+Example:
+  ``10, 20, 40, 80, 160, ...``
+
+  The First number is the first *term* and so on.
+
+Formula:
+  :math:`f(n) = an^k` or :math:`f(x) = ax^k`
+
+  Where :math:`n` is a Natural Number (also represented as :math:`x`),
+  :math:`a` is a Real Number, and :math:`k` is a Positive Integer.
+
+Finite (Triangular) Differences
+*******************************
+
+.. sidebar:: Key Points:
+
+  The *level* of the **Constant Difference** is the same as the *Exponent* (:math:`k`)
+
+  The **Constant Difference** can be found by Calculating the *Factorial of the Exponent* (:math:`k!`)
+
+.. note::
+
+	*Finite Differences* are sometimes referred to as *Triangular Differences*
+
+
+Deriving Formula from Sequences
+-------------------------------
+
+When given a sequence, break it down into smaller sequences of
+differences between the terms (*do this until the differences are equal,
+this is the* **Common Difference** *used to get the* **Constant Difference**).
+
+The number of smaller sequences you need to make until you find that
+number is known as the **Level of Difference** (*this is the* :math:`k`
+*value in the formula*).
+
+To calculate the **Constant Difference** set up an equation in the following
+format:
+
+.. centered:: :math:`k! \times a = x`
+
+Where :math:`k` is the **Level of Difference** (*ie. the Exponent*),
+:math:`x` is the **Common Difference**, and :math:`a` is the **Constant
+Difference**. Solve for :math:`a`.
+
+Example::
+
+  5   8   11  14  17
+    3   3   3   3     <- 1st Difference
+
+  1st Difference = 3
+
+Example::
+
+  1   4   9  16  25  36
+    3   5   7   9  11    <- 1st Difference
+      2   2   2   2      <- 2nd Difference
+
+  2nd Difference = 2
+
+Example::
+
+  1   8   27  64  125  216   343
+    7   19  37  61   91   127     <- 1st Difference
+      12  18  24  30   36         <- 2nd Difference
+        6   6   6    6            <- 3rd Difference
+
+  3rd Difference = 6
+
+
+Sequence Formula Patters
+------------------------
+
+Below is a table of Sequence Formulas that will help you identify other Sequences.
+
++------------------+---------------------+-----------------------------------------------+
+| Type of Function | Formula             | Examples                                      |
++==================+=====================+===============================================+
+| Linear           | :math:`f(x) = ax^1` | :math:`3x^1` = 1\ :sup:`st`\  Difference = 3  |
++------------------+---------------------+-----------------------------------------------+
+| Quadratic        | :math:`f(x) = ax^2` | :math:`1x^2` = 2\ :sup:`st`\  Difference = 2  |
+|                  |                     +-----------------------------------------------+
+|                  |                     | :math:`2x^2` = 2\ :sup:`st`\  Difference = 4  |
+|                  |                     +-----------------------------------------------+
+|                  |                     | :math:`3x^2` = 2\ :sup:`st`\  Difference = 6  |
++------------------+---------------------+-----------------------------------------------+
+| Cubic            | :math:`f(x) = ax^3` | :math:`1x^3` = 2\ :sup:`st`\  Difference = 6  |
+|                  |                     +-----------------------------------------------+
+|                  |                     | :math:`2x^3` = 2\ :sup:`st`\  Difference = 12 |
+|                  |                     +-----------------------------------------------+
+|                  |                     | :math:`3x^3` = 2\ :sup:`st`\  Difference = 18 |
++------------------+---------------------+-----------------------------------------------+
+
+.. note::
+
+	Notice how the **Levels of Difference** are the same as the Exponents in the Expressions

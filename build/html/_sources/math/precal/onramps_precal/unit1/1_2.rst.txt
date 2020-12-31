@@ -2,8 +2,8 @@
 ######################################
 
 
-Domain, Codomain, and Range
-***************************
+1.2.1 - Domain, Codomain, and Range
+***********************************
 
 Domain
     The set of all inputs of a Function (ie. the *x* values)
@@ -101,8 +101,8 @@ Writing Domain Restrictions:
 -----------
 
 
-Injective, Surjective, Bijective Functions
-******************************************
+1.2.2 - Injective, Surjective, Bijective Functions
+**************************************************
 
 *\"Injective, Surjective, and Bijective"* tell us how a Function behaves.
 
@@ -136,8 +136,8 @@ Examples:
 -----------
 
 
-Even, Odd, or None
-******************
+1.2.3 - Even, Odd, or None
+**************************
 
 Even Functions
   Meets the following criteria:
@@ -167,8 +167,8 @@ Functions that are Neither
 -----------
 
 
-Composition of Functions
-************************
+1.2.4 - Composition of Functions
+********************************
 
 
 Definition
@@ -227,8 +227,8 @@ Example:
 
 .. _inverse-of-functions:
 
-Inverse of Functions
-********************
+1.2.5 - Inverse of Functions
+****************************
 
 .. sidebar:: What Functions have Inverses?
 

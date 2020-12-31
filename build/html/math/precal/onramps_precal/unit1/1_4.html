@@ -95,7 +95,7 @@
       <a href="../../../../index.html"><div class="brand">The Notebook  documentation</div></a>
     </div>
     <div class="header-right">
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
     </div>
@@ -166,11 +166,122 @@
   <main class="main">
     <div class="content">
       <article role="main">
-        <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+        <label class="toc-overlay-icon toc-content-icon" for="__toc">
           <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
         </label>
         <div class="section" id="sequences-and-differences">
 <h1>1.4 - Sequences and Differences<a class="headerlink" href="#sequences-and-differences" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="sequences">
+<h2>1.4.1 - Sequences<a class="headerlink" href="#sequences" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="what-are-sequences">
+<h3>What are Sequences?<a class="headerlink" href="#what-are-sequences" title="Permalink to this headline">¶</a></h3>
+<dl>
+<dt>Definition:</dt><dd><p>A pattern of numbers in a particular order</p>
+</dd>
+<dt>Example:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">10,</span> <span class="pre">20,</span> <span class="pre">40,</span> <span class="pre">80,</span> <span class="pre">160,</span> <span class="pre">...</span></code></p>
+<p>The First number is the first <em>term</em> and so on.</p>
+</dd>
+<dt>Formula:</dt><dd><p><span class="math notranslate nohighlight">\(f(n) = an^k\)</span> or <span class="math notranslate nohighlight">\(f(x) = ax^k\)</span></p>
+<p>Where <span class="math notranslate nohighlight">\(n\)</span> is a Natural Number (also represented as <span class="math notranslate nohighlight">\(x\)</span>),
+<span class="math notranslate nohighlight">\(a\)</span> is a Real Number, and <span class="math notranslate nohighlight">\(k\)</span> is a Positive Integer.</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="finite-triangular-differences">
+<h3>Finite (Triangular) Differences<a class="headerlink" href="#finite-triangular-differences" title="Permalink to this headline">¶</a></h3>
+<div class="sidebar">
+<p class="sidebar-title">Key Points:</p>
+<p>The <em>level</em> of the <strong>Constant Difference</strong> is the same as the <em>Exponent</em> (<span class="math notranslate nohighlight">\(k\)</span>)</p>
+<p>The <strong>Constant Difference</strong> can be found by Calculating the <em>Factorial of the Exponent</em> (<span class="math notranslate nohighlight">\(k!\)</span>)</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><em>Finite Differences</em> are sometimes referred to as <em>Triangular Differences</em></p>
+</div>
+<div class="section" id="deriving-formula-from-sequences">
+<h4>Deriving Formula from Sequences<a class="headerlink" href="#deriving-formula-from-sequences" title="Permalink to this headline">¶</a></h4>
+<p>When given a sequence, break it down into smaller sequences of
+differences between the terms (<em>do this until the differences are equal,
+this is the</em> <strong>Common Difference</strong> <em>used to get the</em> <strong>Constant Difference</strong>).</p>
+<p>The number of smaller sequences you need to make until you find that
+number is known as the <strong>Level of Difference</strong> (<em>this is the</em> <span class="math notranslate nohighlight">\(k\)</span>
+<em>value in the formula</em>).</p>
+<p>To calculate the <strong>Constant Difference</strong> set up an equation in the following
+format:</p>
+<p class="centered">
+<strong><span class="math notranslate nohighlight">\(k! \times a = x\)</span></strong></p><p>Where <span class="math notranslate nohighlight">\(k\)</span> is the <strong>Level of Difference</strong> (<em>ie. the Exponent</em>),
+<span class="math notranslate nohighlight">\(x\)</span> is the <strong>Common Difference</strong>, and <span class="math notranslate nohighlight">\(a\)</span> is the <strong>Constant
+Difference</strong>. Solve for <span class="math notranslate nohighlight">\(a\)</span>.</p>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">5</span>   <span class="mi">8</span>   <span class="mi">11</span>  <span class="mi">14</span>  <span class="mi">17</span>
+  <span class="mi">3</span>   <span class="mi">3</span>   <span class="mi">3</span>   <span class="mi">3</span>     <span class="o">&lt;-</span> <span class="mi">1</span><span class="n">st</span> <span class="n">Difference</span>
+
+<span class="mi">1</span><span class="n">st</span> <span class="n">Difference</span> <span class="o">=</span> <span class="mi">3</span>
+</pre></div>
+</div>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">1</span>   <span class="mi">4</span>   <span class="mi">9</span>  <span class="mi">16</span>  <span class="mi">25</span>  <span class="mi">36</span>
+  <span class="mi">3</span>   <span class="mi">5</span>   <span class="mi">7</span>   <span class="mi">9</span>  <span class="mi">11</span>    <span class="o">&lt;-</span> <span class="mi">1</span><span class="n">st</span> <span class="n">Difference</span>
+    <span class="mi">2</span>   <span class="mi">2</span>   <span class="mi">2</span>   <span class="mi">2</span>      <span class="o">&lt;-</span> <span class="mi">2</span><span class="n">nd</span> <span class="n">Difference</span>
+
+<span class="mi">2</span><span class="n">nd</span> <span class="n">Difference</span> <span class="o">=</span> <span class="mi">2</span>
+</pre></div>
+</div>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">1</span>   <span class="mi">8</span>   <span class="mi">27</span>  <span class="mi">64</span>  <span class="mi">125</span>  <span class="mi">216</span>   <span class="mi">343</span>
+  <span class="mi">7</span>   <span class="mi">19</span>  <span class="mi">37</span>  <span class="mi">61</span>   <span class="mi">91</span>   <span class="mi">127</span>     <span class="o">&lt;-</span> <span class="mi">1</span><span class="n">st</span> <span class="n">Difference</span>
+    <span class="mi">12</span>  <span class="mi">18</span>  <span class="mi">24</span>  <span class="mi">30</span>   <span class="mi">36</span>         <span class="o">&lt;-</span> <span class="mi">2</span><span class="n">nd</span> <span class="n">Difference</span>
+      <span class="mi">6</span>   <span class="mi">6</span>   <span class="mi">6</span>    <span class="mi">6</span>            <span class="o">&lt;-</span> <span class="mi">3</span><span class="n">rd</span> <span class="n">Difference</span>
+
+<span class="mi">3</span><span class="n">rd</span> <span class="n">Difference</span> <span class="o">=</span> <span class="mi">6</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="sequence-formula-patters">
+<h4>Sequence Formula Patters<a class="headerlink" href="#sequence-formula-patters" title="Permalink to this headline">¶</a></h4>
+<p>Below is a table of Sequence Formulas that will help you identify other Sequences.</p>
+<div class="table-wrapper"><table class="docutils align-default">
+<colgroup>
+<col style="width: 21%"/>
+<col style="width: 24%"/>
+<col style="width: 55%"/>
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Type of Function</p></th>
+<th class="head"><p>Formula</p></th>
+<th class="head"><p>Examples</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Linear</p></td>
+<td><p><span class="math notranslate nohighlight">\(f(x) = ax^1\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(3x^1\)</span> = 1<sup>st</sup> Difference = 3</p></td>
+</tr>
+<tr class="row-odd"><td rowspan="3"><p>Quadratic</p></td>
+<td rowspan="3"><p><span class="math notranslate nohighlight">\(f(x) = ax^2\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(1x^2\)</span> = 2<sup>st</sup> Difference = 2</p></td>
+</tr>
+<tr class="row-even"><td><p><span class="math notranslate nohighlight">\(2x^2\)</span> = 2<sup>st</sup> Difference = 4</p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="math notranslate nohighlight">\(3x^2\)</span> = 2<sup>st</sup> Difference = 6</p></td>
+</tr>
+<tr class="row-even"><td rowspan="3"><p>Cubic</p></td>
+<td rowspan="3"><p><span class="math notranslate nohighlight">\(f(x) = ax^3\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(1x^3\)</span> = 2<sup>st</sup> Difference = 6</p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="math notranslate nohighlight">\(2x^3\)</span> = 2<sup>st</sup> Difference = 12</p></td>
+</tr>
+<tr class="row-even"><td><p><span class="math notranslate nohighlight">\(3x^3\)</span> = 2<sup>st</sup> Difference = 18</p></td>
+</tr>
+</tbody>
+</table></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Notice how the <strong>Levels of Difference</strong> are the same as the Exponents in the Expressions</p>
+</div>
+</div>
+</div>
+</div>
 </div>
 
       </article>
@@ -204,8 +315,35 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            Contents
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">1.4 - Sequences and Differences</a><ul>
+<li><a class="reference internal" href="#sequences">1.4.1 - Sequences</a><ul>
+<li><a class="reference internal" href="#what-are-sequences">What are Sequences?</a></li>
+<li><a class="reference internal" href="#finite-triangular-differences">Finite (Triangular) Differences</a><ul>
+<li><a class="reference internal" href="#deriving-formula-from-sequences">Deriving Formula from Sequences</a></li>
+<li><a class="reference internal" href="#sequence-formula-patters">Sequence Formula Patters</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>

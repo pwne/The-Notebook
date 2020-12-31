@@ -2,8 +2,8 @@
 ###############################
 
 
-Distance vs Time
-================
+1.3.1 - Distance vs Time
+========================
 
 When looking at a *Distance vs Time* graph there are a few types of rates you
 might encounter:
@@ -38,8 +38,8 @@ might encounter:
 
 ----------
 
-Height vs Volume
-================
+1.3.2 - Height vs Volume
+========================
 
 Height vs Volume graphs show the *Height* a fluid reaches while taking up
 a certain *Volume*
