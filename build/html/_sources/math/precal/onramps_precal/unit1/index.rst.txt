@@ -5,10 +5,6 @@ Unit 1 - Functions, Rates, and Patterns
 
     Add notes for the rest of the subunits:
 
-    * 1.4 - Sequences and Triangular Differences
-
-      - Use Triangular Differences to identify degree
-
     * 1.5 - Functions Defined by Patterns
 
       - Identify functions using tables
