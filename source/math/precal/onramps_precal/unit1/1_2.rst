@@ -98,9 +98,6 @@ Writing Domain Restrictions:
       greater than or equal to 0, making it :ref:`Invertible<inverse-of-functions>`
 
 
------------
-
-
 1.2.2 - Injective, Surjective, Bijective Functions
 ==================================================
 
@@ -133,9 +130,6 @@ Examples:
   .. image:: ..\\_static\\function-mapping.svg
 
 
------------
-
-
 1.2.3 - Even, Odd, or None
 ==========================
 
@@ -162,9 +156,6 @@ Functions that are Neither
 
   .. image:: ..\\_static\\neither.svg
     :scale: 75%
-
-
------------
 
 
 1.2.4 - Composition of Functions
@@ -221,8 +212,6 @@ Example:
 
   It matters which Functions you designate as :math:`f(x)` and :math:`g(x)`
 
-
------------
 
 .. _inverse-of-functions:
 
