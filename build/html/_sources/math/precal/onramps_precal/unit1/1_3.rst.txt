@@ -1,9 +1,9 @@
-1.3 - Qualitative Look at Rates
-###############################
+Qualitative Look at Rates
+#########################
 
 
-1.3.1 - Distance vs Time
-========================
+Distance vs Time
+================
 
 When looking at a *Distance vs Time* graph there are a few types of rates you
 might encounter:
@@ -36,10 +36,8 @@ might encounter:
   The **Steeper**/**Flatter** the line (either *linear* or *non-linear*) the **Higher**/**Lower** the slope
 
 
-----------
-
-1.3.2 - Height vs Volume
-========================
+Height vs Volume
+================
 
 Height vs Volume graphs show the *Height* a fluid reaches while taking up
 a certain *Volume*

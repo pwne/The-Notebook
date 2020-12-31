@@ -1,8 +1,8 @@
-1.4 - Sequences and Differences
-###############################
+Sequences and Differences
+#########################
 
-1.4.1 - Sequences
-=================
+Sequences
+=========
 
 What are Sequences?
 *******************

@@ -1,9 +1,9 @@
-1.2 - Functions and Types of Functions
-######################################
+Functions and Types of Functions
+################################
 
 
-1.2.1 - Domain, Codomain, and Range
-===================================
+Domain, Codomain, and Range
+===========================
 
 Domain
     The set of all inputs of a Function (ie. the *x* values)
@@ -98,8 +98,8 @@ Writing Domain Restrictions:
       greater than or equal to 0, making it :ref:`Invertible<inverse-of-functions>`
 
 
-1.2.2 - Injective, Surjective, Bijective Functions
-==================================================
+Injective, Surjective, Bijective Functions
+==========================================
 
 *\"Injective, Surjective, and Bijective"* tell us how a Function behaves.
 
@@ -130,8 +130,8 @@ Examples:
   .. image:: ..\\_static\\function-mapping.svg
 
 
-1.2.3 - Even, Odd, or None
-==========================
+Even, Odd, or None
+==================
 
 Even Functions
   Meets the following criteria:
@@ -158,8 +158,8 @@ Functions that are Neither
     :scale: 75%
 
 
-1.2.4 - Composition of Functions
-================================
+Composition of Functions
+========================
 
 Definition
   Taking the output values from one function and using those as the input
@@ -215,8 +215,8 @@ Example:
 
 .. _inverse-of-functions:
 
-1.2.5 - Inverse of Functions
-============================
+Inverse of Functions
+====================
 
 .. sidebar:: What Functions have Inverses?
 
