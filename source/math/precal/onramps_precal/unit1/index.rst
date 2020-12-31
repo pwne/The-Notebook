@@ -5,11 +5,6 @@ Unit 1 - Functions, Rates, and Patterns
 
     Add notes for the rest of the subunits:
 
-    * 1.3 - Looking at rates
-
-      - Distance vs Time
-      - Height vs Volume
-
     * 1.4 - Sequences and Triangular Differences
 
       - Use Triangular Differences to identify degree

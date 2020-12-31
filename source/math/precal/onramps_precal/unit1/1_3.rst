@@ -12,16 +12,22 @@ might encounter:
 | Type of Line                      | Acceleration | Velocity | Graph                                           |
 +===================================+==============+==========+=================================================+
 | Straight Line (Linear Function)   | 0            | 0        | .. image:: ..\\_static\\linear-0.png            |
+|                                   |              |          |     :scale: 50%                                 |
 |                                   |              +----------+-------------------------------------------------+
 |                                   |              | Positive | .. image:: ..\\_static\\linear-positive.png     |
+|                                   |              |          |     :scale: 50%                                 |
 |                                   |              +----------+-------------------------------------------------+
 |                                   |              | Negative | .. image:: ..\\_static\\linear-negative.png     |
+|                                   |              |          |     :scale: 50%                                 |
 +-----------------------------------+--------------+----------+-------------------------------------------------+
 | Curved line (Non-Linear Function) | Constant     | Positive | .. image:: ..\\_static\\nonlinear-positive.png  |
+|                                   |              |          |     :scale: 50%                                 |
 |                                   |              +----------+-------------------------------------------------+
 |                                   |              | Negative | .. image:: ..\\_static\\nonlinear-negative1.png |
+|                                   |              |          |     :scale: 50%                                 |
 |                                   |              |          +-------------------------------------------------+
 |                                   |              |          | .. image:: ..\\_static\\nonlinear-negative2.png |
+|                                   |              |          |     :scale: 50%                                 |
 +-----------------------------------+--------------+----------+-------------------------------------------------+
 
 
@@ -38,10 +44,22 @@ Height vs Volume
 Height vs Volume graphs show the *Height* a fluid reaches while taking up
 a certain *Volume*
 
++-------------------+--------------------------------------------+
+| Type of Container | Graph and Image                            |
++===================+============================================+
+| Box               | .. image:: ..\\_static\\h_vs_v\\box.png    |
+|                   |     :scale: 75%                            |
++-------------------+--------------------------------------------+
+| Bucket            | .. image:: ..\\_static\\h_vs_v\\bucket.png |
+|                   |     :scale: 75%                            |
++-------------------+--------------------------------------------+
+| Vase              | .. image:: ..\\_static\\h_vs_v\\vase.png   |
+|                   |     :scale: 75%                            |
++-------------------+--------------------------------------------+
+| Flask             | .. image:: ..\\_static\\h_vs_v\\circle.png |
+|                   |     :scale: 75%                            |
++-------------------+--------------------------------------------+
+
 .. note::
 
-    Many of the Graphs below are similar if not identical to some of the graphs
-    in the section above.
-
-
-text
+	Look for patterns in the graphs and shapes that will help you create graphs for other containers
