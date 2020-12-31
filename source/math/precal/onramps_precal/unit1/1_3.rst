@@ -1,3 +1,8 @@
+.. sectnum::
+  :prefix: 1.
+  :start: 3
+  :depth: 2
+
 Qualitative Look at Rates
 #########################
 

@@ -1,2 +1,7 @@
+.. sectnum::
+  :prefix: 1.
+  :start: 5
+  :depth: 2
+
 Function Patterns
 #################

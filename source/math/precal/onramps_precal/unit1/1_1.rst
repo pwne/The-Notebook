@@ -1,6 +1,7 @@
 .. sectnum::
   :prefix: 1.
-  :suffix: -
+  :start: 1
+  :depth: 2
 
 What is a Function?
 ###################
