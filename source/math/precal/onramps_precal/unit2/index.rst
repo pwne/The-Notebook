@@ -16,15 +16,7 @@ Unit 2 - Algebra and Geometry
     * 2.5 Using Statistical Regression
 
   * Fill out the *"highlights"* section
-
-Overview
-****************
-
-This unit goes over the following:
-
-.. highlights::
-
-  *Highlights go here*
+  
 
 Table of Contents
 *****************

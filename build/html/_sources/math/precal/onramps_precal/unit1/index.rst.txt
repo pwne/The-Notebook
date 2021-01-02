@@ -2,23 +2,6 @@ Unit 1 - Functions, Rates, and Patterns
 #######################################
 
 
-Overview
-****************
-
-This unit goes over the following:
-
-.. highlights::
-
-  * What makes a function
-  * Functions notation
-  * Domain and Range
-  * Composition of Functions
-  * Inverse Functions
-  * Properties of Functions
-  * Identifying Functions from Graphs and Tables
-  * Reading and Creating Piecewise Functions
-
-
 Table of Contents
 *****************
 

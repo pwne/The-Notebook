@@ -17,14 +17,6 @@ Unit 3 - Exponential and Logarithmic Functions
 
   * Fill out the *"highlights"* section
 
-Overview
-****************
-
-This unit goes over the following:
-
-.. highlights::
-
-  *Highlights go here*
 
 Table of Contents
 *****************
