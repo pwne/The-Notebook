@@ -1,0 +1,7 @@
+.. sectnum::
+  :prefix: 2.
+  :start: 1
+  :depth: 2
+
+Algebra and Geometry
+####################

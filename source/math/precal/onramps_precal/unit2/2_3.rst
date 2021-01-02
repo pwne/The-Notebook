@@ -1,0 +1,7 @@
+.. sectnum::
+  :prefix: 2.
+  :start: 3
+  :depth: 2
+
+Conic Sections
+##############

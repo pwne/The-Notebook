@@ -1,16 +1,6 @@
 Unit 1 - Functions, Rates, and Patterns
 #######################################
 
-.. todo::
-
-    Add notes for the rest of the subunits:
-
-    * 1.5 - Functions Defined by Patterns
-
-      - Identify functions using tables
-      - Piecewise Functions
-
-
 
 Overview
 ****************

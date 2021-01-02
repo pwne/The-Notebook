@@ -1,0 +1,7 @@
+.. sectnum::
+  :prefix: 2.
+  :start: 4
+  :depth: 2
+
+Using Matrices to Find Models
+#############################

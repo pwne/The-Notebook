@@ -13,6 +13,7 @@ Table Of Contents
     :maxdepth: 1
 
     unit1/index
+    unit2/index
 
 
 Notes Information
