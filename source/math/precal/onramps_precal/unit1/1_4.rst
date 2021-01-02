@@ -26,6 +26,9 @@ Formula:
   Where :math:`n` is a Natural Number (also represented as :math:`x`),
   :math:`a` is a Real Number, and :math:`k` is a Positive Integer.
 
+
+.. finite-differences:
+
 Finite (Triangular) Differences
 *******************************
 

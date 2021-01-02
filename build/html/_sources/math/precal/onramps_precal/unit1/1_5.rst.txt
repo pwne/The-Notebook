@@ -5,3 +5,163 @@
 
 Function Patterns
 #################
+
+Types of Patterns
+=================
+
+There are 3 types of Patterns that you might encounter:
+
+.. sidebar:: Results of Operations
+
+  Addition: **sum**
+  Multiplication: **product**
+
+Arithmetic:
+  Add or Subtract by a Constant
+
+Geometric:
+  Multiply or Divide by a Constant
+
+Triangular Difference:
+  Constant 1\ :sup:`st`\, 2\ :sup:`nd`\, 3\ :sup:`rd` \ Difference (*and so on*)
+
+  .. seealso:: :doc:`1_4`
+
+Pattern Examples
+****************
+
+.. |fx| replace:: \ :math:`f(x)`\
+
+.. |2nd| replace:: 2\ :sup:`nd`\
+
+Sum - Sum Pattern
+-----------------
+
+**Linear Functions** follow the *Sum - Sum* Pattern, where both the :math:`x`
+and :math:`f(x)` values have a constant value added to them.
+
+**Example:**
+  === ====
+  x   |fx|
+  === ====
+  2   4
+  4   9
+  6   14
+  8   19
+  10  24
+  === ====
+
+  .. note::
+
+    Note the Following Patterns in the Table:
+      :math:`x_2 = x_1 + 2` - **sum**
+
+      :math:`f(x_2) = f(x_1) + 5` - **sum**
+
+
+Sum - |2nd| Difference Pattern
+------------------------------
+
+**Quadratic Functions** follow the *Sum -* |2nd| *Difference* Pattern,
+where the :math:`x` values have a constant added to them while the
+:math:`f(x)` values follow a :doc:`2nd Difference. <1_4>`
+
+**Example:**
+  === ====
+  x   |fx|
+  === ====
+  1   15
+  3   5
+  5   19
+  7   57
+  9   119
+  === ====
+
+  .. note::
+
+    Note the Following Patterns in the Table:
+      :math:`x_2 = x_1 + 2` - **sum**
+
+      ::
+
+        15   5  19  57  119
+          -10  14  38  62     <- 1st Difference
+             24  24  24       <- 2nd Difference
+
+
+Sum - Product Pattern
+---------------------
+
+**Exponential Functions** follow the *Sum - Product* Pattern, where the
+:math:`x` values have a constant added to them while the :math:`f(x)` values
+have a constant multiplied to them.
+
+**Example:**
+  === =====
+  x   |fx|
+  === =====
+  1   15
+  3   135
+  5   1215
+  7   10935
+  === =====
+
+  .. note::
+
+    Note the Following Patterns in the Table:
+      :math:`x_2 = x_1 + 2` - **sum**
+
+      :math:`f(x_2) = f(x_1) \times 9` - **product**
+
+
+Product - Sum Pattern
+---------------------
+
+**Logarithmic Functions** follow the *Product - Sum* Pattern, where the
+:math:`x` values have a constant multiplied to them while the :math:`f(x)`
+values have a constant added to them.
+
+**Example:**
+  === ====
+  x   |fx|
+  === ====
+  6   1
+  18  2
+  54  3
+  162 4
+  === ====
+
+  .. note::
+
+    Note the Following Patterns in the Table:
+      :math:`x_2 = x_1 \times 3`
+
+      :math:`f(x_2) = f(x_1) + 1`
+
+
+Product - Product Pattern
+-------------------------
+
+**Power Functions** follow the *Product - Product* Pattern, where both the
+:math:`x` and :math:`f(x)` values have a constant multiplied to them.
+
+**Example:**
+  === ====
+  x   |fx|
+  === ====
+  3   135
+  6   1080
+  9   3695
+  12  8640
+  === ====
+
+  .. note::
+
+    Notice that the third Ordered Pair does not follow the pattern described.
+
+    That is **OKAY** and can happen sometimes, just **ignore** that pair.
+
+
+.. seealso::
+
+  For any question about the functions mentioned above go to:  :doc:`1.1 What is a Function? <1_1>`

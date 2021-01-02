@@ -95,7 +95,7 @@
       <a href="../../../../index.html"><div class="brand">The Notebook  documentation</div></a>
     </div>
     <div class="header-right">
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
     </div>
@@ -166,11 +166,254 @@
   <main class="main">
     <div class="content">
       <article role="main">
-        <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+        <label class="toc-overlay-icon toc-content-icon" for="__toc">
           <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
         </label>
         <div class="section" id="function-patterns">
 <h1><span class="sectnum">1.5</span> Function Patterns<a class="headerlink" href="#function-patterns" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="types-of-patterns">
+<h2><span class="sectnum">1.5.1</span> Types of Patterns<a class="headerlink" href="#types-of-patterns" title="Permalink to this headline">¶</a></h2>
+<p>There are 3 types of Patterns that you might encounter:</p>
+<div class="sidebar">
+<p class="sidebar-title">Results of Operations</p>
+<p>Addition: <strong>sum</strong>
+Multiplication: <strong>product</strong></p>
+</div>
+<dl>
+<dt>Arithmetic:</dt><dd><p>Add or Subtract by a Constant</p>
+</dd>
+<dt>Geometric:</dt><dd><p>Multiply or Divide by a Constant</p>
+</dd>
+<dt>Triangular Difference:</dt><dd><p>Constant 1<sup>st</sup>, 2<sup>nd</sup>, 3<sup>rd</sup> Difference (<em>and so on</em>)</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p><a class="reference internal" href="1_4.html"><span class="doc">1.4   Sequences and Differences</span></a></p>
+</div>
+</dd>
+</dl>
+<div class="section" id="pattern-examples">
+<h3>Pattern Examples<a class="headerlink" href="#pattern-examples" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="sum-sum-pattern">
+<h4>Sum - Sum Pattern<a class="headerlink" href="#sum-sum-pattern" title="Permalink to this headline">¶</a></h4>
+<p><strong>Linear Functions</strong> follow the <em>Sum - Sum</em> Pattern, where both the <span class="math notranslate nohighlight">\(x\)</span>
+and <span class="math notranslate nohighlight">\(f(x)\)</span> values have a constant value added to them.</p>
+<dl>
+<dt><strong>Example:</strong></dt><dd><div class="table-wrapper"><table class="docutils align-default">
+<colgroup>
+<col style="width: 43%"/>
+<col style="width: 57%"/>
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>x</p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(f(x)\)</span></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>2</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>9</p></td>
+</tr>
+<tr class="row-even"><td><p>6</p></td>
+<td><p>14</p></td>
+</tr>
+<tr class="row-odd"><td><p>8</p></td>
+<td><p>19</p></td>
+</tr>
+<tr class="row-even"><td><p>10</p></td>
+<td><p>24</p></td>
+</tr>
+</tbody>
+</table></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<dl>
+<dt>Note the Following Patterns in the Table:</dt><dd><p><span class="math notranslate nohighlight">\(x_2 = x_1 + 2\)</span> - <strong>sum</strong></p>
+<p><span class="math notranslate nohighlight">\(f(x_2) = f(x_1) + 5\)</span> - <strong>sum</strong></p>
+</dd>
+</dl>
+</div>
+</dd>
+</dl>
+</div>
+<div class="section" id="sum-2nd-difference-pattern">
+<h4>Sum - 2<sup>nd</sup> Difference Pattern<a class="headerlink" href="#sum-2nd-difference-pattern" title="Permalink to this headline">¶</a></h4>
+<p><strong>Quadratic Functions</strong> follow the <em>Sum -</em> 2<sup>nd</sup> <em>Difference</em> Pattern,
+where the <span class="math notranslate nohighlight">\(x\)</span> values have a constant added to them while the
+<span class="math notranslate nohighlight">\(f(x)\)</span> values follow a <a class="reference internal" href="1_4.html"><span class="doc">2nd Difference.</span></a></p>
+<dl>
+<dt><strong>Example:</strong></dt><dd><div class="table-wrapper"><table class="docutils align-default">
+<colgroup>
+<col style="width: 43%"/>
+<col style="width: 57%"/>
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>x</p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(f(x)\)</span></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>15</p></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>19</p></td>
+</tr>
+<tr class="row-odd"><td><p>7</p></td>
+<td><p>57</p></td>
+</tr>
+<tr class="row-even"><td><p>9</p></td>
+<td><p>119</p></td>
+</tr>
+</tbody>
+</table></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<dl>
+<dt>Note the Following Patterns in the Table:</dt><dd><p><span class="math notranslate nohighlight">\(x_2 = x_1 + 2\)</span> - <strong>sum</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">15</span>   <span class="mi">5</span>  <span class="mi">19</span>  <span class="mi">57</span>  <span class="mi">119</span>
+  <span class="o">-</span><span class="mi">10</span>  <span class="mi">14</span>  <span class="mi">38</span>  <span class="mi">62</span>     <span class="o">&lt;-</span> <span class="mi">1</span><span class="n">st</span> <span class="n">Difference</span>
+     <span class="mi">24</span>  <span class="mi">24</span>  <span class="mi">24</span>       <span class="o">&lt;-</span> <span class="mi">2</span><span class="n">nd</span> <span class="n">Difference</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</div>
+</dd>
+</dl>
+</div>
+<div class="section" id="sum-product-pattern">
+<h4>Sum - Product Pattern<a class="headerlink" href="#sum-product-pattern" title="Permalink to this headline">¶</a></h4>
+<p><strong>Exponential Functions</strong> follow the <em>Sum - Product</em> Pattern, where the
+<span class="math notranslate nohighlight">\(x\)</span> values have a constant added to them while the <span class="math notranslate nohighlight">\(f(x)\)</span> values
+have a constant multiplied to them.</p>
+<dl>
+<dt><strong>Example:</strong></dt><dd><div class="table-wrapper"><table class="docutils align-default">
+<colgroup>
+<col style="width: 38%"/>
+<col style="width: 63%"/>
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>x</p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(f(x)\)</span></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>15</p></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>135</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>1215</p></td>
+</tr>
+<tr class="row-odd"><td><p>7</p></td>
+<td><p>10935</p></td>
+</tr>
+</tbody>
+</table></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<dl>
+<dt>Note the Following Patterns in the Table:</dt><dd><p><span class="math notranslate nohighlight">\(x_2 = x_1 + 2\)</span> - <strong>sum</strong></p>
+<p><span class="math notranslate nohighlight">\(f(x_2) = f(x_1) \times 9\)</span> - <strong>product</strong></p>
+</dd>
+</dl>
+</div>
+</dd>
+</dl>
+</div>
+<div class="section" id="product-sum-pattern">
+<h4>Product - Sum Pattern<a class="headerlink" href="#product-sum-pattern" title="Permalink to this headline">¶</a></h4>
+<p><strong>Logarithmic Functions</strong> follow the <em>Product - Sum</em> Pattern, where the
+<span class="math notranslate nohighlight">\(x\)</span> values have a constant multiplied to them while the <span class="math notranslate nohighlight">\(f(x)\)</span>
+values have a constant added to them.</p>
+<dl>
+<dt><strong>Example:</strong></dt><dd><div class="table-wrapper"><table class="docutils align-default">
+<colgroup>
+<col style="width: 43%"/>
+<col style="width: 57%"/>
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>x</p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(f(x)\)</span></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>6</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>18</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-even"><td><p>54</p></td>
+<td><p>3</p></td>
+</tr>
+<tr class="row-odd"><td><p>162</p></td>
+<td><p>4</p></td>
+</tr>
+</tbody>
+</table></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<dl>
+<dt>Note the Following Patterns in the Table:</dt><dd><p><span class="math notranslate nohighlight">\(x_2 = x_1 \times 3\)</span></p>
+<p><span class="math notranslate nohighlight">\(f(x_2) = f(x_1) + 1\)</span></p>
+</dd>
+</dl>
+</div>
+</dd>
+</dl>
+</div>
+<div class="section" id="product-product-pattern">
+<h4>Product - Product Pattern<a class="headerlink" href="#product-product-pattern" title="Permalink to this headline">¶</a></h4>
+<p><strong>Power Functions</strong> follow the <em>Product - Product</em> Pattern, where both the
+<span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(f(x)\)</span> values have a constant multiplied to them.</p>
+<dl>
+<dt><strong>Example:</strong></dt><dd><div class="table-wrapper"><table class="docutils align-default">
+<colgroup>
+<col style="width: 43%"/>
+<col style="width: 57%"/>
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>x</p></th>
+<th class="head"><p><span class="math notranslate nohighlight">\(f(x)\)</span></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>135</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>1080</p></td>
+</tr>
+<tr class="row-even"><td><p>9</p></td>
+<td><p>3695</p></td>
+</tr>
+<tr class="row-odd"><td><p>12</p></td>
+<td><p>8640</p></td>
+</tr>
+</tbody>
+</table></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Notice that the third Ordered Pair does not follow the pattern described.</p>
+<p>That is <strong>OKAY</strong> and can happen sometimes, just <strong>ignore</strong> that pair.</p>
+</div>
+</dd>
+</dl>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>For any question about the functions mentioned above go to:  <a class="reference internal" href="1_1.html"><span class="doc">1.1 What is a Function?</span></a></p>
+</div>
+</div>
+</div>
+</div>
 </div>
 
       </article>
@@ -204,8 +447,37 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            Contents
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#"><span class="sectnum">1.5</span> Function Patterns</a><ul>
+<li><a class="reference internal" href="#types-of-patterns"><span class="sectnum">1.5.1</span> Types of Patterns</a><ul>
+<li><a class="reference internal" href="#pattern-examples">Pattern Examples</a><ul>
+<li><a class="reference internal" href="#sum-sum-pattern">Sum - Sum Pattern</a></li>
+<li><a class="reference internal" href="#sum-2nd-difference-pattern">Sum - 2<sup>nd</sup> Difference Pattern</a></li>
+<li><a class="reference internal" href="#sum-product-pattern">Sum - Product Pattern</a></li>
+<li><a class="reference internal" href="#product-sum-pattern">Product - Sum Pattern</a></li>
+<li><a class="reference internal" href="#product-product-pattern">Product - Product Pattern</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>
