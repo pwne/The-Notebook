@@ -1,0 +1,7 @@
+.. sectnum::
+  :prefix: 3.
+  :start: 3
+  :depth: 2
+
+Growth and Decay
+################

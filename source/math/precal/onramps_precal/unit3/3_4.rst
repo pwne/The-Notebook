@@ -1,0 +1,7 @@
+.. sectnum::
+  :prefix: 3.
+  :start: 4
+  :depth: 2
+
+Functions Defined by Patterns in Application
+############################################

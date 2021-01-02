@@ -1,0 +1,7 @@
+.. sectnum::
+  :prefix: 3.
+  :start: 0
+  :depth: 2
+
+Review Exponents and Logarithms
+###############################

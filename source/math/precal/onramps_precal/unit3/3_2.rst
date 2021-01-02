@@ -1,0 +1,7 @@
+.. sectnum::
+  :prefix: 3.
+  :start: 2
+  :depth: 2
+
+The Natural Logarithm
+#####################

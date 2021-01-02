@@ -1,0 +1,7 @@
+.. sectnum::
+  :prefix: 3.
+  :start: 1
+  :depth: 2
+
+A Special Number
+################
