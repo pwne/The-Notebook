@@ -23,7 +23,7 @@ Table of Contents
 
 .. important::
 
-	All of the following topics will be on the Unit 2 Test
+	All of the following topics will be on the Unit 3 Test
 
 .. toctree::
     :maxdepth: 2
