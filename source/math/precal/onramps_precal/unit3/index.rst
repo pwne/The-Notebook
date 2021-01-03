@@ -5,8 +5,6 @@ Unit 3 - Exponential and Logarithmic Functions
 
   * Write Notes for the following Sections:
 
-    * 3.0 Review Exponents & Logarithms
-
     * 3.1 A Special Number
 
     * 3.2 The Natural Logarithm
