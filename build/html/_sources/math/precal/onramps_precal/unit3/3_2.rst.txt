@@ -5,3 +5,30 @@
 
 The Natural Logarithm
 #####################
+
+
+Inverse of :math:`e^x`
+======================
+
+Just like the :math:`\log` function is the inverse of exponents, the **Natural
+Logarithm** is the inverse of :math:`e`.
+
+Formulas:
+  :math:`\ln = \log_e`
+
+Properties:
+  :math:`e^{\ln{x}} = x` and :math:`\ln{e^x} = x`
+
+
+Carbon Dating
+=============
+
+The Natural Log can be used to determine the age of organisms based on the amount
+of radioactive carbon it contains - a process known as *carbon dating*.
+
+Formula:
+  :math:`N(t) = N_0e^{-\frac{t\ln2}{h}}` or :math:`N(t) = N_0 \bigg \lgroup \displaystyle \frac{1}{2} \bigg \rgroup^{\frac{t}{h}}`
+
+  Where :math:`N(t)` is the remaining amount of radioactive material after a
+  given time, :math:`t` (unit given as half-life), :math:`N_0` is the original
+  and :math:`h` is the length of the material's half-life.
