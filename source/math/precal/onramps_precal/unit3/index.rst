@@ -4,9 +4,7 @@ Unit 3 - Exponential and Logarithmic Functions
 .. todo::
 
   * Write Notes for the following Sections:
-
-    * 3.1 A Special Number
-
+  
     * 3.2 The Natural Logarithm
 
     * 3.3 Growth and Decay

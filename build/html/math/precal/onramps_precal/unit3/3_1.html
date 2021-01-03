@@ -95,7 +95,7 @@
       <a href="../../../../index.html"><div class="brand">The Notebook  documentation</div></a>
     </div>
     <div class="header-right">
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
     </div>
@@ -182,11 +182,52 @@
   <main class="main">
     <div class="content">
       <article role="main">
-        <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+        <label class="toc-overlay-icon toc-content-icon" for="__toc">
           <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
         </label>
         <div class="section" id="a-special-number">
 <h1><span class="sectnum">3.1</span> A Special Number<a class="headerlink" href="#a-special-number" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="euler-s-number">
+<h2><span class="sectnum">3.1.1</span> Euler’s Number<a class="headerlink" href="#euler-s-number" title="Permalink to this headline">¶</a></h2>
+<p>More commonly known as <span class="math notranslate nohighlight">\(e\)</span>, Euler’s Number is the area under
+<span class="math notranslate nohighlight">\(f(x) = \frac{1}{x}\)</span> on the interval <span class="math notranslate nohighlight">\([1, x]\)</span> where
+<span class="math notranslate nohighlight">\(x \in [1, 3]\)</span> such that <span class="math notranslate nohighlight">\(f(x) = 1\)</span>.</p>
+<p>This number has many practical applications, but for this course it is used
+for calculating <em>Interest</em></p>
+<div class="section" id="compound-interest-with-e">
+<h3>Compound Interest with <span class="math notranslate nohighlight">\(e\)</span><a class="headerlink" href="#compound-interest-with-e" title="Permalink to this headline">¶</a></h3>
+<p>Interest is <em>compounded</em>, or added to the original value, in one of two ways;
+at regular intervals or continuously.</p>
+<div class="sidebar">
+<p class="sidebar-title">Variables:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(A(t)\)</span> - Amount after <span class="math notranslate nohighlight">\(t\)</span> Years</p></li>
+<li><p><span class="math notranslate nohighlight">\(P\)</span> - Principal (Initial Value)</p></li>
+<li><p><span class="math notranslate nohighlight">\(r\)</span> - APR (Annual Percent Rate, decimal)</p></li>
+<li><p><span class="math notranslate nohighlight">\(t\)</span> - Number of Years</p></li>
+<li><p><span class="math notranslate nohighlight">\(n\)</span> - Number of Compounds per Year</p></li>
+</ul>
+</div>
+<div class="section" id="compounding-at-regular-intervals">
+<h4>Compounding at Regular Intervals<a class="headerlink" href="#compounding-at-regular-intervals" title="Permalink to this headline">¶</a></h4>
+<dl class="simple">
+<dt>Formula:</dt><dd><p><span class="math notranslate nohighlight">\(A(t) = P(1 + \frac{r}{n})^{nt}\)</span></p>
+</dd>
+</dl>
+<p>Interest is Compounded (<em>added</em>) to the Principal (<em>Initial Value</em>, <span class="math notranslate nohighlight">\(P\)</span>) at
+Regular Intervals each year (<span class="math notranslate nohighlight">\(n\)</span>) for a certain number of years (<span class="math notranslate nohighlight">\(t\)</span>)</p>
+</div>
+<div class="section" id="compounding-continuously">
+<h4>Compounding Continuously<a class="headerlink" href="#compounding-continuously" title="Permalink to this headline">¶</a></h4>
+<dl class="simple">
+<dt>Formula:</dt><dd><p><span class="math notranslate nohighlight">\(A(t) = Pe^{rt}\)</span></p>
+</dd>
+</dl>
+<p>Interest is Compounded (<em>added</em>) to the Principal (<em>Initial Value</em>, <span class="math notranslate nohighlight">\(P\)</span>) over
+a Theoretically Infinite number of Intervals for a certain number of years (<span class="math notranslate nohighlight">\(e^{rt}\)</span>)</p>
+</div>
+</div>
+</div>
 </div>
 
       </article>
@@ -220,8 +261,34 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            Contents
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#"><span class="sectnum">3.1</span> A Special Number</a><ul>
+<li><a class="reference internal" href="#euler-s-number"><span class="sectnum">3.1.1</span> Euler’s Number</a><ul>
+<li><a class="reference internal" href="#compound-interest-with-e">Compound Interest with <span class="math notranslate nohighlight">\(e\)</span></a><ul>
+<li><a class="reference internal" href="#compounding-at-regular-intervals">Compounding at Regular Intervals</a></li>
+<li><a class="reference internal" href="#compounding-continuously">Compounding Continuously</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>
