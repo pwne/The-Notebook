@@ -5,3 +5,101 @@
 
 Growth and Decay
 ################
+
+
+Exponential Functions
+=====================
+
+There are 3 common types of Exponential Functions:
+
+  1. :math:`y = Ce^{kt}` - General Growth Model
+  2. :math:`y = y_0 + Ce^{kt}` - Newton's Law of Cooling
+  3. :math:`y = \frac{L}{1 + Ce^{-kLt}}` - General Logistic Model
+
+
+General Growth Model Functions:
+*******************************
+
+The *General Growth Model* can be used in many day-to-day situations, but it
+assumes that the function grows without limits. This Model is not accurate
+when dealing with populations.
+
+Below are some of the most common Exponential Functions that model
+Growth or Decay situations.
+
+
+General Exponential
+-------------------
+
+:math:`y = a(b)^{x}`
+
+
+Percent Increase/Decrease
+-------------------------
+
+:math:`y = a(1 \pm r)^{kt}`
+
+Arguments:
+
+  * :math:`a` - Initial Amount
+  * :math:`r` - Rate of Increase/Decrease
+  * :math:`k` - Number of Increases/Decreases per year
+  * :math:`t` - Time
+
+
+Compound Interest Compounded at Regular Intervals
+-------------------------------------------------
+
+:math:`A = P \lgroup 1 + \frac{r}{n} \rgroup^{nt}`
+
+Arguments:
+
+  * :math:`A` - Final Amount
+  * :math:`P` - Initial Amount
+  * :math:`r` - APR (Annual Percentage Rate)
+  * :math:`n` - Number of compounds per year
+  * :math:`t` - Time
+
+
+Compound Interest Compounded Continuously
+-----------------------------------------
+
+:math:`A = Pe^{rt}`
+
+Arguments:
+
+  * :math:`A` - Final Amount
+  * :math:`P` - Initial Amount
+  * :math:`r` - APR (Annual Percentage Rate)
+  * :math:`t` - Time
+
+
+Half-Life
+---------
+
+:math:`N(t) = N_0e^{\frac{-t\ln2}{h}}`
+
+Arguments:
+
+  * :math:`N(t)` - Final Amount
+  * :math:`N_0` - Initial Amount
+  * :math:`t` - Time
+  * :math:`h` - Half-Life Time
+
+
+Logistic Growth Model
+*********************
+
+The *Logistic Growth Model* is well adapted to modeling situations where the
+growth of the independent variable is limited.
+
+Logistic Function
+-----------------
+
+:math:`y = \frac{L}{1 + Ce^{-kLt}}`
+
+Arguments:
+
+  * :math:`L` - The Curve's Maximum Value, *Carrying Capacity*
+  * :math:`C, k, L` - Constants
+  * :math:`t` - Time

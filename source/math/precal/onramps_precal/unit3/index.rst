@@ -1,16 +1,6 @@
 Unit 3 - Exponential and Logarithmic Functions
 ##############################################
 
-.. todo::
-
-  * Write Notes for the following Sections:
-
-    * 3.3 Growth and Decay
-
-    * 3.4 Functions Defined by Patterns in Application
-
-  * Fill out the *"highlights"* section
-
 
 Table of Contents
 *****************

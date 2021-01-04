@@ -95,7 +95,7 @@
       <a href="../../../../index.html"><div class="brand">The Notebook  documentation</div></a>
     </div>
     <div class="header-right">
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
     </div>
@@ -182,11 +182,104 @@
   <main class="main">
     <div class="content">
       <article role="main">
-        <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+        <label class="toc-overlay-icon toc-content-icon" for="__toc">
           <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
         </label>
         <div class="section" id="growth-and-decay">
 <h1><span class="sectnum">3.3</span> Growth and Decay<a class="headerlink" href="#growth-and-decay" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="exponential-functions">
+<h2><span class="sectnum">3.3.1</span> Exponential Functions<a class="headerlink" href="#exponential-functions" title="Permalink to this headline">¶</a></h2>
+<p>There are 3 common types of Exponential Functions:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(y = Ce^{kt}\)</span> - General Growth Model</p></li>
+<li><p><span class="math notranslate nohighlight">\(y = y_0 + Ce^{kt}\)</span> - Newton’s Law of Cooling</p></li>
+<li><p><span class="math notranslate nohighlight">\(y = \frac{L}{1 + Ce^{-kLt}}\)</span> - General Logistic Model</p></li>
+</ol>
+</div></blockquote>
+<div class="section" id="general-growth-model-functions">
+<h3>General Growth Model Functions:<a class="headerlink" href="#general-growth-model-functions" title="Permalink to this headline">¶</a></h3>
+<p>The <em>General Growth Model</em> can be used in many day-to-day situations, but it
+assumes that the function grows without limits. This Model is not accurate
+when dealing with populations.</p>
+<p>Below are some of the most common Exponential Functions that model
+Growth or Decay situations.</p>
+<div class="section" id="general-exponential">
+<h4>General Exponential<a class="headerlink" href="#general-exponential" title="Permalink to this headline">¶</a></h4>
+<p><span class="math notranslate nohighlight">\(y = a(b)^{x}\)</span></p>
+</div>
+<div class="section" id="percent-increase-decrease">
+<h4>Percent Increase/Decrease<a class="headerlink" href="#percent-increase-decrease" title="Permalink to this headline">¶</a></h4>
+<p><span class="math notranslate nohighlight">\(y = a(1 \pm r)^{kt}\)</span></p>
+<p>Arguments:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(a\)</span> - Initial Amount</p></li>
+<li><p><span class="math notranslate nohighlight">\(r\)</span> - Rate of Increase/Decrease</p></li>
+<li><p><span class="math notranslate nohighlight">\(k\)</span> - Number of Increases/Decreases per year</p></li>
+<li><p><span class="math notranslate nohighlight">\(t\)</span> - Time</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="compound-interest-compounded-at-regular-intervals">
+<h4>Compound Interest Compounded at Regular Intervals<a class="headerlink" href="#compound-interest-compounded-at-regular-intervals" title="Permalink to this headline">¶</a></h4>
+<p><span class="math notranslate nohighlight">\(A = P \lgroup 1 + \frac{r}{n} \rgroup^{nt}\)</span></p>
+<p>Arguments:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(A\)</span> - Final Amount</p></li>
+<li><p><span class="math notranslate nohighlight">\(P\)</span> - Initial Amount</p></li>
+<li><p><span class="math notranslate nohighlight">\(r\)</span> - APR (Annual Percentage Rate)</p></li>
+<li><p><span class="math notranslate nohighlight">\(n\)</span> - Number of compounds per year</p></li>
+<li><p><span class="math notranslate nohighlight">\(t\)</span> - Time</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="compound-interest-compounded-continuously">
+<h4>Compound Interest Compounded Continuously<a class="headerlink" href="#compound-interest-compounded-continuously" title="Permalink to this headline">¶</a></h4>
+<p><span class="math notranslate nohighlight">\(A = Pe^{rt}\)</span></p>
+<p>Arguments:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(A\)</span> - Final Amount</p></li>
+<li><p><span class="math notranslate nohighlight">\(P\)</span> - Initial Amount</p></li>
+<li><p><span class="math notranslate nohighlight">\(r\)</span> - APR (Annual Percentage Rate)</p></li>
+<li><p><span class="math notranslate nohighlight">\(t\)</span> - Time</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="half-life">
+<h4>Half-Life<a class="headerlink" href="#half-life" title="Permalink to this headline">¶</a></h4>
+<p><span class="math notranslate nohighlight">\(N(t) = N_0e^{\frac{-t\ln2}{h}}\)</span></p>
+<p>Arguments:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(N(t)\)</span> - Final Amount</p></li>
+<li><p><span class="math notranslate nohighlight">\(N_0\)</span> - Initial Amount</p></li>
+<li><p><span class="math notranslate nohighlight">\(t\)</span> - Time</p></li>
+<li><p><span class="math notranslate nohighlight">\(h\)</span> - Half-Life Time</p></li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="logistic-growth-model">
+<h3>Logistic Growth Model<a class="headerlink" href="#logistic-growth-model" title="Permalink to this headline">¶</a></h3>
+<p>The <em>Logistic Growth Model</em> is well adapted to modeling situations where the
+growth of the independent variable is limited.</p>
+<div class="section" id="logistic-function">
+<h4>Logistic Function<a class="headerlink" href="#logistic-function" title="Permalink to this headline">¶</a></h4>
+<p><span class="math notranslate nohighlight">\(y = \frac{L}{1 + Ce^{-kLt}}\)</span></p>
+<p>Arguments:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(L\)</span> - The Curve’s Maximum Value, <em>Carrying Capacity</em></p></li>
+<li><p><span class="math notranslate nohighlight">\(C, k, L\)</span> - Constants</p></li>
+<li><p><span class="math notranslate nohighlight">\(t\)</span> - Time</p></li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+</div>
 </div>
 
       </article>
@@ -220,8 +313,41 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            Contents
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#"><span class="sectnum">3.3</span> Growth and Decay</a><ul>
+<li><a class="reference internal" href="#exponential-functions"><span class="sectnum">3.3.1</span> Exponential Functions</a><ul>
+<li><a class="reference internal" href="#general-growth-model-functions">General Growth Model Functions:</a><ul>
+<li><a class="reference internal" href="#general-exponential">General Exponential</a></li>
+<li><a class="reference internal" href="#percent-increase-decrease">Percent Increase/Decrease</a></li>
+<li><a class="reference internal" href="#compound-interest-compounded-at-regular-intervals">Compound Interest Compounded at Regular Intervals</a></li>
+<li><a class="reference internal" href="#compound-interest-compounded-continuously">Compound Interest Compounded Continuously</a></li>
+<li><a class="reference internal" href="#half-life">Half-Life</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#logistic-growth-model">Logistic Growth Model</a><ul>
+<li><a class="reference internal" href="#logistic-function">Logistic Function</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>
