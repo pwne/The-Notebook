@@ -16,4 +16,7 @@ Table of Contents
     3_1
     3_2
     3_3
-    3_4
+
+.. note::
+
+	Unit 3.4 is the same as Unit 1.5

@@ -1,9 +1,0 @@
-.. sectnum::
-  :prefix: 3.
-  :start: 4
-  :depth: 2
-
-Functions Defined by Patterns in Application
-############################################
-
-This Subunit is the same as **Unit 1.4**
