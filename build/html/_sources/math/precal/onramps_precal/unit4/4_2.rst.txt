@@ -1,0 +1,7 @@
+.. sectnum::
+  :prefix: 4.
+  :start: 3
+  :depth: 2
+
+Trigonometric Foundations
+#########################

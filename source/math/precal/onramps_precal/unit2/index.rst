@@ -16,14 +16,10 @@ Unit 2 - Algebra and Geometry
     * 2.5 Using Statistical Regression
 
   * Fill out the *"highlights"* section
-  
+
 
 Table of Contents
 *****************
-
-.. important::
-
-	All of the following topics will be on the Unit 2 Test
 
 .. toctree::
     :maxdepth: 2

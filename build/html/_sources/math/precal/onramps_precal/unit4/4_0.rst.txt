@@ -1,0 +1,93 @@
+.. sectnum::
+  :prefix: 4.
+  :start: 0
+  :depth: 2
+
+Simple Triangle Trigonometry
+############################
+
+
+Trigonometric Ratios
+====================
+
+
+In a **Right Triangle**, where :math:`\theta` is one of the two acute angles,
+there are **6** Trigonometric Ratios:
+
+  .. hlist::
+
+    * Sine      :math:`\theta = \frac{\text{opposite}}{\text{hypotenuse}}`
+    * Cosine    :math:`\theta = \frac{\text{adjacent}}{\text{hypotenuse}}`
+    * Tangent   :math:`\theta = \frac{\text{opposite}}{\text{adjacent}}`
+    * Cosecant  :math:`\theta = \frac{\text{hypotenuse}}{\text{opposite}}`
+    * Secant    :math:`\theta = \frac{\text{hypotenuse}}{\text{adjacent}}`
+    * Cotangent :math:`\theta = \frac{\text{adjacent}}{\text{opposite}}`
+
+
+  .. note::
+    *Cosecant, Secant, and Cotangent* are **Reciprocals** of *Sine, Cosine, and Tangent.*
+
+    Triangle Sides:
+
+      * Adjacent: Side next to :math:`\theta`
+      * Opposite: Side opposite of :math:`\theta`
+      * Hypotenuse: Longest Side
+
+Example
+  .. image:: ..\\_static\\unit4\\triangle_angle_a.png
+
+  **Missing Side:**
+
+    Side AB = 40
+
+    .. note::
+
+    	Solve using **Pythagorean Theorem**
+
+  **Trigonometric Ratios:**
+
+    .. hlist::
+
+      * sin :math:`\angle A = \frac{30}{50}`
+      * cos :math:`\angle A = \frac{40}{50}`
+      * tan :math:`\angle A = \frac{30}{40}`
+      * csc :math:`\angle A = \frac{50}{30}`
+      * sec :math:`\angle A = \frac{50}{40}`
+      * cot :math:`\angle A = \frac{40}{30}`
+
+
+Triangle on :math:`x, y` Plane
+==============================
+
+You might see triangles on a graph, like this:
+
+.. image::  ..\\_static\\unit4\\triangle_diagram.jpg
+  :scale: 25%
+
+.. note::
+  The sides are no longer named *Adjacent, Opposite, and Hypotenuse*. Instead
+  they are referred to as *Side-x, Side-y, and Side-r*.
+
+The **Trigonometric Ratios** remain the same, but the representation changes:
+
+.. hlist::
+
+  * Sine      :math:`\theta = \frac{y}{r}`
+  * Cosine    :math:`\theta = \frac{x}{r}`
+  * Tangent   :math:`\theta = \frac{y}{x}`
+  * Cosecant  :math:`\theta = \frac{r}{x}`
+  * Secant    :math:`\theta = \frac{r}{x}`
+  * Cotangent :math:`\theta = \frac{x}{y}`
+
+.. note::
+
+  If the Triangle is embedded in a *Unit Circle*, then:
+
+    :math:`x = r \cos{\theta}`
+    :math:`y = r \sin{\theta}`
+
+  And by extension the **Pythagorean Theorem** becomes:
+
+    :math:`\cos^2\theta + \sin^2\theta = 1`
+
+    :math:`\cos^2\theta` means :math:`(\cos{\theta})^2` and **NOT** :math:`\cos{\theta^2}`
