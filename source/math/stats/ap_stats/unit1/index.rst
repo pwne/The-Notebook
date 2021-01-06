@@ -16,8 +16,4 @@ Table of Contents
 .. toctree::
     :maxdepth: 2
 
-    1_0
-    1_1
-    1_3
-    1_2
-    review
+    
