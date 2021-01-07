@@ -6,17 +6,11 @@
 Rotational Motion and Gravity
 #############################
 
-Laws of Rotational Motion
-=========================
-
-
-This Subunit goes over the simplest form of curved motion, **uniform circular
-motion**, or motion in a circular path at a constant speed.
-
-
 Rotation Angle and Angular Velocity
 ===================================
 
+This Subunit goes over the simplest form of curved motion, **uniform circular
+motion**, or motion in a circular path at a constant speed.
 
 Rotation Angle
 ****************
