@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js">
   <head><meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="index" title="Index" href="../../../../genindex.html" /><link rel="search" title="Search" href="../../../../search.html" /><link rel="next" title="5.2 Laws of Rotational Motion" href="5_2.html" /><link rel="prev" title="Unit 5 - Rotational Motion and Gravity" href="index.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="index" title="Index" href="../../../../genindex.html" /><link rel="search" title="Search" href="../../../../search.html" /><link rel="next" title="5.2 Centripetal Acceleration" href="5_2.html" /><link rel="prev" title="Unit 5 - Rotational Motion and Gravity" href="index.html" />
 
     <meta name="generator" content="sphinx-3.3.0, furo 2020.12.28.beta23"/>
         <title>5.1 Rotational Motion and Gravity - The Notebook documentation</title>
@@ -95,7 +95,7 @@
       <a href="../../../../index.html"><div class="brand">The Notebook  documentation</div></a>
     </div>
     <div class="header-right">
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
     </div>
@@ -176,7 +176,7 @@
 </li>
 <li class="toctree-l2 current has-children"><a class="reference internal" href="index.html">Unit 5 - Rotational Motion and Gravity</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/><label for="toctree-checkbox-10"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
 <li class="toctree-l3 current current-page"><a class="current reference internal" href="#"><span class="sectnum">5.1</span> Rotational Motion and Gravity</a></li>
-<li class="toctree-l3"><a class="reference internal" href="5_2.html"><span class="sectnum">5.2</span> Laws of Rotational Motion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="5_2.html"><span class="sectnum">5.2</span> Centripetal Acceleration</a></li>
 </ul>
 </li>
 </ul>
@@ -196,11 +196,100 @@
   <main class="main">
     <div class="content">
       <article role="main">
-        <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+        <label class="toc-overlay-icon toc-content-icon" for="__toc">
           <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
         </label>
         <div class="section" id="rotational-motion-and-gravity">
 <h1><span class="sectnum">5.1</span> Rotational Motion and Gravity<a class="headerlink" href="#rotational-motion-and-gravity" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="laws-of-rotational-motion">
+<h2><span class="sectnum">5.1.1</span> Laws of Rotational Motion<a class="headerlink" href="#laws-of-rotational-motion" title="Permalink to this headline">¶</a></h2>
+<p>This Subunit goes over the simplest form of curved motion, <strong>uniform circular
+motion</strong>, or motion in a circular path at a constant speed.</p>
+</div>
+<div class="section" id="rotation-angle-and-angular-velocity">
+<h2><span class="sectnum">5.1.2</span> Rotation Angle and Angular Velocity<a class="headerlink" href="#rotation-angle-and-angular-velocity" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="rotation-angle">
+<h3>Rotation Angle<a class="headerlink" href="#rotation-angle" title="Permalink to this headline">¶</a></h3>
+<p>The <strong>Rotation Angle</strong> <span class="math notranslate nohighlight">\(\Delta\theta\)</span> is the ratio between the arc length
+to the radius of curvature:</p>
+<div class="math-wrapper"><div class="math notranslate nohighlight">
+\[\Delta\theta = \frac{\Delta s}{r}\]</div></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Arc Lenght</strong> <span class="math notranslate nohighlight">\(\Delta s\)</span> is the distances traveled along a circular path</p>
+<p><span class="math notranslate nohighlight">\(r\)</span> is the <strong>Radius of Curvature</strong> of the path</p>
+</div>
+<p>For one complete revolution, the arc length is the circumference of a circle,
+<span class="math notranslate nohighlight">\(2 \pi r\)</span>. Therefore the Rotation Angle for one complete revolution is</p>
+<div class="math-wrapper"><div class="math notranslate nohighlight">
+\[\Delta\theta = \frac{2 \pi r}{r} = 2\pi\]</div></div>
+<p><span class="math notranslate nohighlight">\(\Delta\theta\)</span> is measured in units known as <strong>Radians</strong>, and defined as</p>
+<div class="math-wrapper"><div class="math notranslate nohighlight">
+\[2\pi \text{ rad } = 1 \text{ revolution, or } 360^\circ\]</div></div>
+<p>Below is a table of some common angles expressed in both degrees and radians.</p>
+<div class="table-wrapper"><table class="docutils align-default">
+<colgroup>
+<col style="width: 46%"/>
+<col style="width: 54%"/>
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Degree Measures</p></th>
+<th class="head"><p>Radian Measures</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><span class="math notranslate nohighlight">\(30^\circ\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(\frac{\pi}{6}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="math notranslate nohighlight">\(60^\circ\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(\frac{\pi}{3}\)</span></p></td>
+</tr>
+<tr class="row-even"><td><p><span class="math notranslate nohighlight">\(90^\circ\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(\frac{\pi}{2}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="math notranslate nohighlight">\(120^\circ\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(\frac{2\pi}{3}\)</span></p></td>
+</tr>
+<tr class="row-even"><td><p><span class="math notranslate nohighlight">\(135^\circ\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(\frac{3\pi}{4}\)</span></p></td>
+</tr>
+<tr class="row-odd"><td><p><span class="math notranslate nohighlight">\(180^\circ\)</span></p></td>
+<td><p><span class="math notranslate nohighlight">\(\pi\)</span></p></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="section" id="angular-velocity">
+<h3>Angular Velocity<a class="headerlink" href="#angular-velocity" title="Permalink to this headline">¶</a></h3>
+<p><strong>Angular Velocity</strong> <span class="math notranslate nohighlight">\(\omega\)</span> is the rate of change of an angle, or
+how fast an object is rotating. It is defined as</p>
+<div class="math-wrapper"><div class="math notranslate nohighlight">
+\[\omega = \frac{\Delta\theta}{\Delta t}\]</div></div>
+<p>where an Angular Rotation <span class="math notranslate nohighlight">\(\Delta\theta\)</span> takes place in a time <span class="math notranslate nohighlight">\(\Delta t\)</span>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The greater the angle <span class="math notranslate nohighlight">\(\theta\)</span>, the greater the Angular Velocity.</p>
+</div>
+<p>Because Angular Velocity <span class="math notranslate nohighlight">\(\omega\)</span> is analogous to linear velocity <span class="math notranslate nohighlight">\(v\)</span>,
+we can write the Linear Velocity as</p>
+<div class="math-wrapper"><div class="math notranslate nohighlight">
+\[v = \frac{\Delta s}{\Delta t}\]</div></div>
+<p>where an object moves an arc length <span class="math notranslate nohighlight">\(\Delta s\)</span> in a time <span class="math notranslate nohighlight">\(\Delta t\)</span>.
+We can substitute <span class="math notranslate nohighlight">\(\Delta s = \Delta\theta r\)</span> into the equation to get</p>
+<div class="math-wrapper"><div class="math notranslate nohighlight">
+\[v = \frac{\Delta\theta r}{\Delta t} = r\omega\]</div></div>
+<p>And this relationship can be written in two different ways</p>
+<div class="math-wrapper"><div class="math notranslate nohighlight">
+\[v = r\omega \text{ or } \omega = \frac{v}{r}\]</div></div>
+<p>The first relationship states that the linear velocity <span class="math notranslate nohighlight">\(v\)</span> is proportional
+to the distance from the center of rotation, meaning that it is larger for a point
+on the rim.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The linear speed <span class="math notranslate nohighlight">\(v\)</span> of a point on the rim is called the <em>tangential speed</em>.</p>
+</div>
+</div>
+</div>
 </div>
 
       </article>
@@ -212,7 +301,7 @@
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title"><span class="sectnum">5.2</span> Laws of Rotational Motion</div>
+                <div class="title"><span class="sectnum">5.2</span> Centripetal Acceleration</div>
               </div>
               <svg><use href="#svg-arrow-right"></use></svg>
             </a>
@@ -234,8 +323,32 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            Contents
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#"><span class="sectnum">5.1</span> Rotational Motion and Gravity</a><ul>
+<li><a class="reference internal" href="#laws-of-rotational-motion"><span class="sectnum">5.1.1</span> Laws of Rotational Motion</a></li>
+<li><a class="reference internal" href="#rotation-angle-and-angular-velocity"><span class="sectnum">5.1.2</span> Rotation Angle and Angular Velocity</a><ul>
+<li><a class="reference internal" href="#rotation-angle">Rotation Angle</a></li>
+<li><a class="reference internal" href="#angular-velocity">Angular Velocity</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>

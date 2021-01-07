@@ -5,3 +5,102 @@
 
 Rotational Motion and Gravity
 #############################
+
+Laws of Rotational Motion
+=========================
+
+
+This Subunit goes over the simplest form of curved motion, **uniform circular
+motion**, or motion in a circular path at a constant speed.
+
+
+Rotation Angle and Angular Velocity
+===================================
+
+
+Rotation Angle
+****************
+
+The **Rotation Angle** :math:`\Delta\theta` is the ratio between the arc length
+to the radius of curvature:
+
+.. math::
+
+	\Delta\theta = \frac{\Delta s}{r}
+
+.. note::
+
+  **Arc Lenght** :math:`\Delta s` is the distances traveled along a circular path
+
+  :math:`r` is the **Radius of Curvature** of the path
+
+For one complete revolution, the arc length is the circumference of a circle,
+:math:`2 \pi r`. Therefore the Rotation Angle for one complete revolution is
+
+.. math::
+
+	\Delta\theta = \frac{2 \pi r}{r} = 2\pi
+
+:math:`\Delta\theta` is measured in units known as **Radians**, and defined as
+
+.. math::
+
+	2\pi \text{ rad } = 1 \text{ revolution, or } 360^\circ
+
+Below is a table of some common angles expressed in both degrees and radians.
+
+===================   ======================
+Degree Measures       Radian Measures
+===================   ======================
+:math:`30^\circ`      :math:`\frac{\pi}{6}`
+:math:`60^\circ`      :math:`\frac{\pi}{3}`
+:math:`90^\circ`      :math:`\frac{\pi}{2}`
+:math:`120^\circ`     :math:`\frac{2\pi}{3}`
+:math:`135^\circ`     :math:`\frac{3\pi}{4}`
+:math:`180^\circ`     :math:`\pi`
+===================   ======================
+
+
+Angular Velocity
+****************
+
+**Angular Velocity** :math:`\omega` is the rate of change of an angle, or
+how fast an object is rotating. It is defined as
+
+.. math::
+
+	\omega = \frac{\Delta\theta}{\Delta t}
+
+where an Angular Rotation :math:`\Delta\theta` takes place in a time :math:`\Delta t`.
+
+.. note::
+
+	The greater the angle :math:`\theta`, the greater the Angular Velocity.
+
+Because Angular Velocity :math:`\omega` is analogous to linear velocity :math:`v`,
+we can write the Linear Velocity as
+
+.. math::
+
+	v = \frac{\Delta s}{\Delta t}
+
+where an object moves an arc length :math:`\Delta s` in a time :math:`\Delta t`.
+We can substitute :math:`\Delta s = \Delta\theta r` into the equation to get
+
+.. math::
+
+	v = \frac{\Delta\theta r}{\Delta t} = r\omega
+
+And this relationship can be written in two different ways
+
+.. math::
+
+	v = r\omega \text{ or } \omega = \frac{v}{r}
+
+The first relationship states that the linear velocity :math:`v` is proportional
+to the distance from the center of rotation, meaning that it is larger for a point
+on the rim.
+
+.. note::
+
+	The linear speed :math:`v` of a point on the rim is called the *tangential speed*.
