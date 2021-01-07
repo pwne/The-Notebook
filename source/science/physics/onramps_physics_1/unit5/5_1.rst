@@ -24,9 +24,8 @@ Rotation Angle
 The **Rotation Angle** :math:`\Delta\theta` is the ratio between the arc length
 to the radius of curvature:
 
-.. math::
-
-	\Delta\theta = \frac{\Delta s}{r}
+.. image:: ..\\_static\\unit5\\rotational-angle.jpg
+  :scale: 50%
 
 .. note::
 
