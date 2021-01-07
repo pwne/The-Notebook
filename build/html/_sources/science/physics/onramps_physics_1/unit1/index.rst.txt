@@ -1,15 +1,6 @@
 Unit 1 - Mathematics and One-Dimensional Motion
 ###############################################
 
-.. todo::
-
-    * Add notes for this unit
-    * Add an overview for the unit
-
-Overview
-********
-
-
 Table of Contents
 *****************
 
