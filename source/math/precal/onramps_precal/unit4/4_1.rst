@@ -19,3 +19,64 @@ Some common Identities are:
 
   Distributive Identity:
     :math:`a(b+c) = ab + bc`
+
+  Commutative Identity:
+    :math:`a + b = b + a \\ a \cdot b = b \cdot a`
+
+  :math:`\frac{a}{a} = 1` (unless :math:`a = 0`, then undefined)
+
+.. note::
+  To prove that an equations **NOT** an Identity, find one (1) case where it is **NOT** true.
+
+  :math:`a^2 + b^2 = c^2` is an identity **ONLY IF** :math:`a` and :math:`b` are the legs of a right triangle and :math:`c` is the hypotenuse
+
+  :math:`x=\frac{\sqrt{b^2-4(ac)}}{2a}` is an identity **ONLY IF** :math:`ax^2+bx+c=0`.
+
+
+More Trigonometric Properties
+=============================
+
+Reciprocal Properties
+**********************
+
+The **Reciprocal Properties** involve taking the *reciprocal* of the three standard
+Trigonometric Functions (:math:`\sin, \cos, \tan`) to create their inverses
+(:math:`\csc, \sec, \cot`). Below are the Reciprocal Properties:
+
+1. :math:`\csc{\theta} = \frac{1}{\sin{\theta}}; \hspace{10 pt} \sin{\theta} = \frac{1}{\csc{\theta}}`
+2. :math:`\sec{\theta} = \frac{1}{\cos{\theta}}; \hspace{10 pt} \cos{\theta} = \frac{1}{\sec{\theta}}`
+3. :math:`\cot{\theta} = \frac{1}{\tan{\theta}}; \hspace{10 pt} \tan{\theta} = \frac{1}{\cot{\theta}}`
+
+
+Quotient Properties
+*******************
+
+The **Quotient Properties** apply to only the :math:`\tan\theta \text { and } \cot\theta`
+functions:
+
+1. :math:`\tan\theta = \displaystyle \frac{\sin\theta}{\cos\theta}`
+2. :math:`\cot\theta = \displaystyle \frac{\cos\theta}{\sin\theta}`
+
+.. note::
+
+	The :math:`\cot` function is the *reciprocal* of the :math:`\tan` function.
+
+Pythagorean Properties:
+***********************
+
+Using the :math:`\cos^2{\theta}+\sin^2{\theta} = 1` identity based on the Pythagorean
+Theorem for a reference triangle inside a Unit Circle we can derive more Identities
+from it:
+
+.. hlist::
+  :columns: 3
+
+  * :math:`\sin^2\theta + \cos^2\theta = 1 \hspace{20 pt}`
+  * :math:`\sin^2\theta = 1 - \cos^2\theta`
+  * :math:`\cos^2\theta = 1 - \sin^2\theta`
+  * :math:`\sec^2\theta - \tan^2\theta = 1 \hspace{20 pt}`
+  * :math:`\sec^2\theta = \tan^2\theta + 1`
+  * :math:`\tan^2\theta = \sec^2\theta - 1`
+  * :math:`\csc^2\theta - \cot^2\theta = 1 \hspace{20 pt}`
+  * :math:`\csc^2\theta = \cot^2\theta + 1`
+  * :math:`\cot^2\theta = \csc^2\theta - 1`
