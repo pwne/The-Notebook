@@ -5,3 +5,17 @@
 
 Working with Identities
 #######################
+
+Definition:
+  An *Identity* is an equation that is always true regardless of the numbers
+  substituted for the variables.
+
+Identifying Identities
+======================
+
+Identities can be Identifying by looking for consistent patterns.
+
+Some common Identities are:
+
+  Distributive Identity:
+    :math:`a(b+c) = ab + bc`
