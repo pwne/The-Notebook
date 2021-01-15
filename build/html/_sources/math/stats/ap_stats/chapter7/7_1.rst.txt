@@ -5,3 +5,44 @@
 
 What is a Sampling Distribution?
 ################################
+
+Parameters and Statistics
+=========================
+
+.. sidebar:: Parameters
+
+  A number that describes a characteristic of a **population**
+
+  Example: Population mean (:math:`\mu`)
+
+.. sidebar:: Statistic
+
+  A number that describes a characteristic of a **sample**
+
+  Example: Sample mean (:math:`\bar{x}`)
+
+Parameters are usually not known because we cannot examine an entire population.
+However, a Statistic can be taken directly from the sample data.
+
+.. note::
+
+	:math:`p` represents a Population Proportion while :math:`\hat{p}` represents the Sample Proportion (used to estimate unknown parameter :math:`p`)
+
+Example:
+
+``A poll asked a random sample of 515 U.S. adults whether or not they believe
+in ghosts. Of the respondents, 160 said “Yes.”``
+
+What is the **population**, the **parameter**, the **sample**, and the **Statistic** in the problem?
+
+Population:
+  All U.S. adults
+
+Parameter:
+  The proportion of the adults that believe in ghosts
+
+Sample:
+  The 515 people interviewed
+
+Statistic:
+  :math:`\frac{160}{512} = 0.31`, the proportion of the sample that believes in ghosts
