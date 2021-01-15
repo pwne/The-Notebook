@@ -46,3 +46,38 @@ Sample:
 
 Statistic:
   :math:`\frac{160}{512} = 0.31`, the proportion of the sample that believes in ghosts
+
+
+Sampling Variability
+====================
+
+.. sidebar:: Definition
+
+  **Sampling Distribution:**
+    The distribution of values taken by the statistic in all possible samples
+    of the same size from the same population.
+
+Sampling Variability can be best explained by asking the question *"What would
+happen if we took many samples?"*
+
+Steps to answer question:
+  1. Take a large number of samples from the same Population
+  2. Calculate the statistic (ex. sample mean :math:`\bar{x}`) for each sample
+  3. Make a  graph of the values of the Statistic
+  4. Examine the distribution of the graph (Shape, Center, Spread, Unusual Features)
+
+Since it is too hard to take all possible samples of size :math:`n` to obtain the
+sampling distribution, we can use *simulations* to imitate that process.
+
+The **Population Distribution** gives the values of the variable for all
+individuals in the **population**. The **Distribution of Sample Data** shows the
+values of the variable for the individuals in the **sample**.
+
+.. note::
+
+  The Population Distribution **and** the Distribution of Sample data describe **individuals**.
+
+  A Sampling Distribution describes how a statistic **varies** from other samples from the population.
+
+Describing Sampling Distributions
+=================================
