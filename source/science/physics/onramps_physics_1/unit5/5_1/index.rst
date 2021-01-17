@@ -26,7 +26,6 @@ Key Terms
 Table of Contents
 =================
 
-
 .. toctree::
   :maxdepth: 2
 
