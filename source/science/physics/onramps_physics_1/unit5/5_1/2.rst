@@ -1,0 +1,65 @@
+.. sectnum::
+  :prefix: 5.1.
+  :start: 2
+  :depth: 2
+
+Centripetal Acceleration
+########################
+
+
+From Kinematics we know that *acceleration* is a change in velocity, either in its
+magnitude or its velocity, or both. In Uniform Circular Motion, the direction of
+the velocity changes constantly, so there is always an associated acceleration.
+
+.. image:: ..\\..\\_static\\unit5\\centripetal-acceleration.jpg
+  :scale: 50%
+
+The image shows an object moving in a circular path at a constant speed. Given
+vectors :math:`v_1 \text{ and } v_2`, the acceleration is in the direction of
+the change in velocity (vector :math:`\Delta v`) which points directly to the
+center of curvature.
+
+To calculate the magnitude of the acceleration, we can use the triangle formed
+by the velocity vectors and the one formed by the radii :math:`r \text{ and } \Delta s`.
+Since both triangles are isosceles triangles (two equal sides) the two equal
+sides of the velocity vector triangles are the speeds :math:`v_1 = v_2 = v` and
+we can use the properties of two similar triangles to obtain:
+
+.. math::
+
+	\frac{\Delta v}{v} = \frac{\Delta s}{r}
+
+Because acceleration is :math:`\Delta v / \Delta t`, we can solve for :math:`\Delta v`
+
+.. math::
+
+	\Delta v = \frac{v}{r} \Delta s
+
+We can divide by :math:`\Delta t` which yields,
+
+.. math::
+
+	\frac{\Delta v}{\Delta t} = \frac{v}{r} \times \frac{\Delta s}{\Delta t}
+
+We know that :math:`v = \Delta s / \Delta t`  and :math:`a_c = \Delta v / \Delta t`
+so we can see that the magnitude of the centripetal acceleration is
+
+.. math::
+
+	a_c = \frac{v^2}{r}
+
+which is the acceleration of an object in a circle of radius :math:`r` at a
+speed :math:`v`. Therefore, centripetal acceleration is greater at higher speeds
+and sharp curves (smaller radius).
+
+.. note::
+
+  :math:`a_c` is proportional to speed squared, therefore, for example, it is
+  four times as hard to take a curve at 100 km/h than at 50 km/
+
+We can also express centripetal acceleration in terms of *angular velocity* by
+substituting :math:`v = r\omega` into the expression above we find
+
+.. math::
+
+	a_c = \frac{v^2}{r}; a_c = r\omega^2

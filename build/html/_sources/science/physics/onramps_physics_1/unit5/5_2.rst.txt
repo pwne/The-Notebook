@@ -1,7 +1,0 @@
-.. sectnum::
-  :prefix: 5.
-  :start: 2
-  :depth: 2
-
-Centripetal Acceleration
-########################

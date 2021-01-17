@@ -11,5 +11,4 @@ Table of Contents
 .. toctree::
   :maxdepth: 2
 
-  5_1
-  5_2
+  5_1/index

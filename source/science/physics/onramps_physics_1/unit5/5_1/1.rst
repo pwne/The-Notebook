@@ -1,24 +1,22 @@
 .. sectnum::
-  :prefix: 5.
+  :prefix: 5.1.
   :start: 1
   :depth: 2
 
-Rotational Motion and Gravity
-#############################
-
-Rotation Angle and Angular Velocity
-===================================
+Rotational Angle and Angular Velocity
+#####################################
 
 This Subunit goes over the simplest form of curved motion, **uniform circular
 motion**, or motion in a circular path at a constant speed.
 
+
 Rotation Angle
-****************
+==============
 
 The **Rotation Angle** :math:`\Delta\theta` is the ratio between the arc length
 to the radius of curvature:
 
-.. image:: ..\\_static\\unit5\\rotational-angle.jpg
+.. image:: ..\\..\\_static\\unit5\\rotational-angle.jpg
   :scale: 50%
 
 .. note::
@@ -55,7 +53,7 @@ Degree Measures       Radian Measures
 
 
 Angular Velocity
-****************
+================
 
 **Angular Velocity** :math:`\omega` is the rate of change of an angle, or
 how fast an object is rotating. It is defined as
