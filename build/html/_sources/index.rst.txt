@@ -12,23 +12,29 @@ Collections:
 ============
 
 .. toctree::
-    :maxdepth: 1
-    :caption: Math Notes:
+  :maxdepth: 1
+  :caption: Math Notes:
 
-    math/precal/onramps_precal/index
-    math/stats/ap_stats/index
+  math/precal/onramps_precal/index
+  math/stats/ap_stats/index
 
 .. toctree::
-    :maxdepth: 1
-    :caption: Science Notes:
+  :maxdepth: 1
+  :caption: Science Notes:
 
-    science/physics/onramps_physics_1/index
+  science/physics/onramps_physics_1/index
+
+.. toctree::
+  :maxdepth: 1
+  :caption: History Notes:
+
+  history/ushistory/apush/index
 
 *More to be added soon*
 
 .. toctree::
-    :maxdepth: 2
-    :caption: Info:
-    :hidden:
+  :maxdepth: 2
+  :caption: Info:
+  :hidden:
 
-    info
+  info
