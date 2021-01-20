@@ -81,3 +81,64 @@ values of the variable for the individuals in the **sample**.
 
 Describing Sampling Distributions
 =================================
+
+Once we have a sampling distribution we can answer the question "How trustworthy
+is a statistic as an estimate of a parameter?"
+
+Center: Biased and Unbiased Estimators
+**************************************
+
+.. note::
+
+  A statistic is known to be an **Unbiased Estimator** if the mean of its
+  sampling distribution is equal to the value of the parameter being estimated.
+
+Calculating Sample Variance
+***************************
+
+The *Sample Variance* :math:`s_x^2` is a measure of spread for a set of
+quantitative data. It describes the "average" squared deviation of the values
+in a sample from their mean :math:`\bar{x}`.
+
+.. math::
+
+	s_x^2 = \frac{1}{n-1}\Sigma(x_i-\bar{x})^2
+
+The division by :math:`n-1` helps ensure that the Sample Variance is an *Unbiased
+Estimator*.
+
+Spread: Low variability is better
+*********************************
+
+Larger random samples tend to produce more *precise* estimates than smaller random
+samples.
+
+.. important::
+
+  Taking a larger sample **does not** fix bias. Even a very large voluntary
+  response sample or convenience sample is worthless because of bias.
+
+.. note::
+
+  The **variability of a statistic** is described by the spread of its
+  sampling distribution. It is determined mainly by the size of the random
+  sample. The spread of the sampling distribution does not depend much on the
+  size of the population, as long as the population is at least 10 times
+  larger than the sample.
+
+
+Bias, Variability, and Shape
+****************************
+
+Think of the true value of a population parameter as the bull's-eye on a
+target and of the sample statistic as an arrow fired at the target. Ideally,
+we'd like our estimates to be *accurate* (unbiased) and *precise* (have low
+variability).
+
+.. image::  ..\\_static\\bias.JPG
+  :scale: 50%
+  :align: center
+
+.. tip::
+
+	Select a statistic with little to no bias and minimum variability.
