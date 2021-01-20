@@ -5,3 +5,139 @@
 
 Sample Means
 ############
+
+Unlike *Sample Proportions* that are used for categorical data, *Sample Means*
+:math:`\bar{x}` is the most common statistic computed from quantitative data.
+
+
+Sampling Distribution of :math:`\bar{x}`
+========================================
+
+When we choose many SRSs from a population, the sampling distribution of the
+sample mean is centered at the population mean :math:`\mu` and is less spread
+out than the population distribution.
+
+.. note::
+
+  Given :math:`\bar{x}` is the mean of an SRS of size :math:`n` taken from a
+  large population with mean :math:`\mu` and standard deviation :math:`\sigma`,
+  then:
+
+  * The **mean** of the Sampling Distribution of :math:`\bar{x}` is :math:`\mu_\bar{x}=\mu`
+  * the **standard deviation** of the sampling distribution of :math:`\bar{x}` is
+
+  .. math::
+
+  	\sigma_\bar{x} = \frac{\sigma}{\sqrt{n}}
+
+  as long as the 10% condition is met: :math:`n \leq \frac{1}{10}N`
+
+:math:`\bar{x}` in repeated samples acts similarly to the sample proportion :math:`\hat{p}`:
+
+* :math:`\bar{x}` is an *unbiased estimator* of the population mean :math:`\mu`
+* The values of :math:`\bar{x}` are less spread out for larger samples
+
+  * Their standard deviation decreases at the rate :math:`\sqrt{n}`
+
+* Use the formula  :math:`\frac{\sigma}{\sqrt{n}}` for the standard deviation
+  of :math:`\bar{x}` only when the population is at least 10 times as large as
+  the sample
+
+.. note::
+
+  These facts about the mean and standard deviation of :math:`\bar{x}` are true
+  *no matter the shape of the population distribution*
+
+
+Sampling from a Normal Population
+=================================
+
+The Shape of the distribution of :math:`\bar{x}` depends on the shape of the
+population distribution. If the Population Distribution is Normal, then so is
+the Sampling Distribution of :math:`\bar{x}` *regardless of the sample size*.
+
+.. note::
+
+  Given a population that is Normally Distributed with mean :math:`\mu` and
+  standard deviation :math:`\sigma`, then the sampling distribution of
+  :math:`\bar{x}` is Normally Distributed with mean :math:`\mu` and standard
+  deviation :math:`\frac{\sigma}{\sqrt{n}}` (assuming 10% condition is met)
+
+
+Calculating Probabilities involving :math:`\bar{x}`
+***************************************************
+
+Example Problem:
+
+  The height of young women follows a Normal Distribution with mean
+  :math:`\mu = 64.5` inches and standard deviation :math:`\sigma = 2.5` inches.
+
+  1. Find the probability that a randomly selected young woman is taller than 66.5 inches.
+  2. Find the probability that the mean height of an SRS of 10 young women exceeds 66.5 inches
+
+  Solution for 1.
+
+    1. :math:`z = \frac{x - \mu}{\sigma} = \frac{66.5 - 64.5}{2.5} = 0.80`
+    2. Using a Normal Distribution Table, :math:`P(z > 0.80) = 1 - 0.7881 = 0.2119`
+
+  Solution for 2.
+
+    1. :math:`\mu_\bar{x} = \mu = 64.5` inches
+    2. :math:`\sigma_\bar{x} = \frac{\sigma}{\sqrt{n}} = \frac{2.5}{\sqrt{10}} = 0.79`
+    3. :math:`z = \frac{x - \mu}{\sigma} = \frac{66.5 - 64.5}{0.79} = 2.53`
+    4. Using a Normal Distribution Table, :math:`P(z > 2.53) = 1 - 0.9943 = 0.0057`
+
+.. note::
+
+  The averages of several observation are less variable than the individual
+  observations.
+
+
+Central Limit Theorem
+=====================
+
+Definition:
+  Given an SRS of size :math:`n` from any population with mean :math:`\mu` and
+  finite standard deviation :math:`\sigma`, if :math:`n` is sufficiently large,
+  the sampling distribution of the sample mean :math:`\bar{x}` is approximately
+  Normal.
+
+Regardless of the shape of a population distribution, the sampling distribution
+of :math:`\bar{x}` becomes more Normal as the sample size :math:`n` increases.
+
+.. note::
+
+  * If the population distribution is Normal, so is the sampling distribution
+    of :math:`\bar{x}`, regardless of the sample size.
+  * If the population distribution is not Normal, the **Central Limit Theorem**
+    states that the sampling distribution of :math:`\bar{x}` will be approximately
+    Normal in most cases is :math:`n \geq 30`.
+
+
+Summary
+================
+
+The **sampling distribution of** :math:`\bar{x}` describes how the statistic
+:math:`\bar{x}` varies in *all* possible samples of the same size from the
+population.
+
+The **mean** of the sampling distribution is :math:`\mu`, so :math:`\bar{x}` is
+an  unbiased estimator of :math:`\mu`.
+
+The **standard deviation** of the sampling distribution of :math:`\bar{x}` is
+:math:`frac{\sigma}{\sqrt{n}}` for an SRS of size :math:`n` if the population has
+standard deviation :math:`\sigma`.
+
+  * Formula can be used if population is at least 10 times as large as the sample
+
+If the population distribution is Normal, so is the sampling distribution
+of :math:`\bar{x}`. If the population distribution is not Normal, the
+**central limit theorem** states that when :math:`n` is large, the sampling
+distribution of :math:`\bar{x}` is approximately Normal.
+
+We can use a Normal distribution to calculate approximate probabilities for
+events involving :math:`\bar{x}` whenever the Normal/Large Sample condition is met:
+
+  * If the population distribution is Normal, so is the sampling distribution of :math:`\bar{x}`.
+  * If :math:`n \geq 30`, the CLT tells us that the sampling distribution of
+    :math:`\bar{x}` will be approximately Normal in most cases

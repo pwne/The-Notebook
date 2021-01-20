@@ -95,7 +95,7 @@
       <a href="../../../../index.html"><div class="brand">The Notebook  documentation</div></a>
     </div>
     <div class="header-right">
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
     </div>
@@ -214,11 +214,146 @@
   <main class="main">
     <div class="content">
       <article role="main">
-        <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+        <label class="toc-overlay-icon toc-content-icon" for="__toc">
           <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
         </label>
         <div class="section" id="sample-means">
 <h1><span class="sectnum">7.3</span> Sample Means<a class="headerlink" href="#sample-means" title="Permalink to this headline">¶</a></h1>
+<p>Unlike <em>Sample Proportions</em> that are used for categorical data, <em>Sample Means</em>
+<span class="math notranslate nohighlight">\(\bar{x}\)</span> is the most common statistic computed from quantitative data.</p>
+<div class="section" id="sampling-distribution-of-bar-x">
+<h2><span class="sectnum">7.3.1</span> Sampling Distribution of <span class="math notranslate nohighlight">\(\bar{x}\)</span><a class="headerlink" href="#sampling-distribution-of-bar-x" title="Permalink to this headline">¶</a></h2>
+<p>When we choose many SRSs from a population, the sampling distribution of the
+sample mean is centered at the population mean <span class="math notranslate nohighlight">\(\mu\)</span> and is less spread
+out than the population distribution.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Given <span class="math notranslate nohighlight">\(\bar{x}\)</span> is the mean of an SRS of size <span class="math notranslate nohighlight">\(n\)</span> taken from a
+large population with mean <span class="math notranslate nohighlight">\(\mu\)</span> and standard deviation <span class="math notranslate nohighlight">\(\sigma\)</span>,
+then:</p>
+<ul class="simple">
+<li><p>The <strong>mean</strong> of the Sampling Distribution of <span class="math notranslate nohighlight">\(\bar{x}\)</span> is <span class="math notranslate nohighlight">\(\mu_\bar{x}=\mu\)</span></p></li>
+<li><p>the <strong>standard deviation</strong> of the sampling distribution of <span class="math notranslate nohighlight">\(\bar{x}\)</span> is</p></li>
+</ul>
+<div class="math-wrapper"><div class="math notranslate nohighlight">
+\[\sigma_\bar{x} = \frac{\sigma}{\sqrt{n}}\]</div></div>
+<p>as long as the 10% condition is met: <span class="math notranslate nohighlight">\(n \leq \frac{1}{10}N\)</span></p>
+</div>
+<p><span class="math notranslate nohighlight">\(\bar{x}\)</span> in repeated samples acts similarly to the sample proportion <span class="math notranslate nohighlight">\(\hat{p}\)</span>:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\bar{x}\)</span> is an <em>unbiased estimator</em> of the population mean <span class="math notranslate nohighlight">\(\mu\)</span></p></li>
+<li><p>The values of <span class="math notranslate nohighlight">\(\bar{x}\)</span> are less spread out for larger samples</p>
+<ul>
+<li><p>Their standard deviation decreases at the rate <span class="math notranslate nohighlight">\(\sqrt{n}\)</span></p></li>
+</ul>
+</li>
+<li><p>Use the formula  <span class="math notranslate nohighlight">\(\frac{\sigma}{\sqrt{n}}\)</span> for the standard deviation
+of <span class="math notranslate nohighlight">\(\bar{x}\)</span> only when the population is at least 10 times as large as
+the sample</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>These facts about the mean and standard deviation of <span class="math notranslate nohighlight">\(\bar{x}\)</span> are true
+<em>no matter the shape of the population distribution</em></p>
+</div>
+</div>
+<div class="section" id="sampling-from-a-normal-population">
+<h2><span class="sectnum">7.3.2</span> Sampling from a Normal Population<a class="headerlink" href="#sampling-from-a-normal-population" title="Permalink to this headline">¶</a></h2>
+<p>The Shape of the distribution of <span class="math notranslate nohighlight">\(\bar{x}\)</span> depends on the shape of the
+population distribution. If the Population Distribution is Normal, then so is
+the Sampling Distribution of <span class="math notranslate nohighlight">\(\bar{x}\)</span> <em>regardless of the sample size</em>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Given a population that is Normally Distributed with mean <span class="math notranslate nohighlight">\(\mu\)</span> and
+standard deviation <span class="math notranslate nohighlight">\(\sigma\)</span>, then the sampling distribution of
+<span class="math notranslate nohighlight">\(\bar{x}\)</span> is Normally Distributed with mean <span class="math notranslate nohighlight">\(\mu\)</span> and standard
+deviation <span class="math notranslate nohighlight">\(\frac{\sigma}{\sqrt{n}}\)</span> (assuming 10% condition is met)</p>
+</div>
+<div class="section" id="calculating-probabilities-involving-bar-x">
+<h3>Calculating Probabilities involving <span class="math notranslate nohighlight">\(\bar{x}\)</span><a class="headerlink" href="#calculating-probabilities-involving-bar-x" title="Permalink to this headline">¶</a></h3>
+<p>Example Problem:</p>
+<blockquote>
+<div><p>The height of young women follows a Normal Distribution with mean
+<span class="math notranslate nohighlight">\(\mu = 64.5\)</span> inches and standard deviation <span class="math notranslate nohighlight">\(\sigma = 2.5\)</span> inches.</p>
+<ol class="arabic simple">
+<li><p>Find the probability that a randomly selected young woman is taller than 66.5 inches.</p></li>
+<li><p>Find the probability that the mean height of an SRS of 10 young women exceeds 66.5 inches</p></li>
+</ol>
+<p>Solution for 1.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(z = \frac{x - \mu}{\sigma} = \frac{66.5 - 64.5}{2.5} = 0.80\)</span></p></li>
+<li><p>Using a Normal Distribution Table, <span class="math notranslate nohighlight">\(P(z &gt; 0.80) = 1 - 0.7881 = 0.2119\)</span></p></li>
+</ol>
+</div></blockquote>
+<p>Solution for 2.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(\mu_\bar{x} = \mu = 64.5\)</span> inches</p></li>
+<li><p><span class="math notranslate nohighlight">\(\sigma_\bar{x} = \frac{\sigma}{\sqrt{n}} = \frac{2.5}{\sqrt{10}} = 0.79\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(z = \frac{x - \mu}{\sigma} = \frac{66.5 - 64.5}{0.79} = 2.53\)</span></p></li>
+<li><p>Using a Normal Distribution Table, <span class="math notranslate nohighlight">\(P(z &gt; 2.53) = 1 - 0.9943 = 0.0057\)</span></p></li>
+</ol>
+</div></blockquote>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The averages of several observation are less variable than the individual
+observations.</p>
+</div>
+</div>
+</div>
+<div class="section" id="central-limit-theorem">
+<h2><span class="sectnum">7.3.3</span> Central Limit Theorem<a class="headerlink" href="#central-limit-theorem" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Definition:</dt><dd><p>Given an SRS of size <span class="math notranslate nohighlight">\(n\)</span> from any population with mean <span class="math notranslate nohighlight">\(\mu\)</span> and
+finite standard deviation <span class="math notranslate nohighlight">\(\sigma\)</span>, if <span class="math notranslate nohighlight">\(n\)</span> is sufficiently large,
+the sampling distribution of the sample mean <span class="math notranslate nohighlight">\(\bar{x}\)</span> is approximately
+Normal.</p>
+</dd>
+</dl>
+<p>Regardless of the shape of a population distribution, the sampling distribution
+of <span class="math notranslate nohighlight">\(\bar{x}\)</span> becomes more Normal as the sample size <span class="math notranslate nohighlight">\(n\)</span> increases.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>If the population distribution is Normal, so is the sampling distribution
+of <span class="math notranslate nohighlight">\(\bar{x}\)</span>, regardless of the sample size.</p></li>
+<li><p>If the population distribution is not Normal, the <strong>Central Limit Theorem</strong>
+states that the sampling distribution of <span class="math notranslate nohighlight">\(\bar{x}\)</span> will be approximately
+Normal in most cases is <span class="math notranslate nohighlight">\(n \geq 30\)</span>.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="summary">
+<h2><span class="sectnum">7.3.4</span> Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h2>
+<p>The <strong>sampling distribution of</strong> <span class="math notranslate nohighlight">\(\bar{x}\)</span> describes how the statistic
+<span class="math notranslate nohighlight">\(\bar{x}\)</span> varies in <em>all</em> possible samples of the same size from the
+population.</p>
+<p>The <strong>mean</strong> of the sampling distribution is <span class="math notranslate nohighlight">\(\mu\)</span>, so <span class="math notranslate nohighlight">\(\bar{x}\)</span> is
+an  unbiased estimator of <span class="math notranslate nohighlight">\(\mu\)</span>.</p>
+<p>The <strong>standard deviation</strong> of the sampling distribution of <span class="math notranslate nohighlight">\(\bar{x}\)</span> is
+<span class="math notranslate nohighlight">\(frac{\sigma}{\sqrt{n}}\)</span> for an SRS of size <span class="math notranslate nohighlight">\(n\)</span> if the population has
+standard deviation <span class="math notranslate nohighlight">\(\sigma\)</span>.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Formula can be used if population is at least 10 times as large as the sample</p></li>
+</ul>
+</div></blockquote>
+<p>If the population distribution is Normal, so is the sampling distribution
+of <span class="math notranslate nohighlight">\(\bar{x}\)</span>. If the population distribution is not Normal, the
+<strong>central limit theorem</strong> states that when <span class="math notranslate nohighlight">\(n\)</span> is large, the sampling
+distribution of <span class="math notranslate nohighlight">\(\bar{x}\)</span> is approximately Normal.</p>
+<p>We can use a Normal distribution to calculate approximate probabilities for
+events involving <span class="math notranslate nohighlight">\(\bar{x}\)</span> whenever the Normal/Large Sample condition is met:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>If the population distribution is Normal, so is the sampling distribution of <span class="math notranslate nohighlight">\(\bar{x}\)</span>.</p></li>
+<li><p>If <span class="math notranslate nohighlight">\(n \geq 30\)</span>, the CLT tells us that the sampling distribution of
+<span class="math notranslate nohighlight">\(\bar{x}\)</span> will be approximately Normal in most cases</p></li>
+</ul>
+</div></blockquote>
+</div>
 </div>
 
       </article>
@@ -252,8 +387,33 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            Contents
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#"><span class="sectnum">7.3</span> Sample Means</a><ul>
+<li><a class="reference internal" href="#sampling-distribution-of-bar-x"><span class="sectnum">7.3.1</span> Sampling Distribution of <span class="math notranslate nohighlight">\(\bar{x}\)</span></a></li>
+<li><a class="reference internal" href="#sampling-from-a-normal-population"><span class="sectnum">7.3.2</span> Sampling from a Normal Population</a><ul>
+<li><a class="reference internal" href="#calculating-probabilities-involving-bar-x">Calculating Probabilities involving <span class="math notranslate nohighlight">\(\bar{x}\)</span></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#central-limit-theorem"><span class="sectnum">7.3.3</span> Central Limit Theorem</a></li>
+<li><a class="reference internal" href="#summary"><span class="sectnum">7.3.4</span> Summary</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>
